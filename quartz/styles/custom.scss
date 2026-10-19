@@ -243,8 +243,23 @@ footer.site-footer {
 }
 
 .site-footer li {
-  margin: 0 0 0.45rem;
+  margin: 0 0 0.3rem;
   font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+// The footer's links and the nav's page links read as text, and turn the
+// link color on hover. The site's name in the nav keeps the link color.
+// (`!important` because the link color is forced on every `a` above.)
+.site-footer li a,
+.site-nav-links a {
+  color: var(--darkgray) !important;
+  transition: color 0.15s;
+}
+
+.site-footer li a:hover,
+.site-nav-links a:hover {
+  color: var(--secondary) !important;
 }
 
 .site-footer .footer-credit {
