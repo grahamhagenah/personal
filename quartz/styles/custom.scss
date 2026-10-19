@@ -28,6 +28,12 @@
   --dark: #f5f5f5 !important;
   --darkgray: #e8e8e8 !important;
   --secondary: #34d399 !important;
+  // A darker ground than the theme's #1C1C1C, with borders and hairlines a
+  // step above it.
+  --light: #111112 !important;
+  --lightgray: #232325 !important;
+  // The theme paints the page itself from its own variable in dark mode.
+  --background-primary: #111112 !important;
 }
 
 a {
@@ -418,4 +424,28 @@ a.project:hover h3 {
 // An email link opens a message, not another site: no external-link icon.
 a[href^="mailto:"] .external-icon {
   display: none;
+}
+
+// "View all projects": a quiet, small grey link under the projects, turning
+// the link color on hover, so it doesn't compete with the cards.
+.projects-all {
+  margin-top: 2rem !important;
+}
+
+.projects-all a {
+  font-size: 0.9rem;
+  color: var(--gray) !important;
+  transition: color 0.15s;
+}
+
+.projects-all a:hover {
+  color: var(--secondary) !important;
+}
+
+// A hairline between the projects and the client work below them, with the
+// same space above and below it.
+.projects-all + h2 {
+  margin-top: 4rem !important;
+  padding-top: 4rem;
+  border-top: 1px solid var(--lightgray);
 }
