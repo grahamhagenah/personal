@@ -43,7 +43,7 @@ Before working in-house, I designed and developed sites for nonprofits and publi
 
 <div class="projects">
 <a class="project" href="/bartlett-interactive">
-<img src="/screenshots/bartlett.webp" alt="Bartlett Interactive's office, a bright open studio with desks, two black lounge chairs around a glass table, and the agency's round b logo in the corner">
+<img src="/screenshots/bartlett.jpg" alt="Bartlett Interactive's office, a bright open studio with desks by tall windows and two black lounge chairs around a glass table, set over a soft mint background">
 <h3>Bartlett Interactive <span class="project-year">2019–2021</span></h3>
 <p>Web developer and designer at a Concord agency, delivering more than 30 sites for Boston-area nonprofits, libraries and community organizations.</p>
 <p class="project-tech">WordPress · PHP · HTML, CSS, JavaScript</p>
