@@ -210,3 +210,62 @@ article img {
   margin: 2rem 0;
   border-radius: 8px;
 }
+
+// Projects grid (home page and the Projects page): written as plain HTML in
+// the notes, two columns of cards — a screenshot, a title, a line about it —
+// each card one link to the project. One column on phones.
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2.5rem 2rem;
+  margin: 1.5rem 0 0;
+}
+
+@media (max-width: 600px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
+
+a.project {
+  display: block;
+  color: inherit !important; // Beats the global link color forced above.
+  text-decoration: none;
+}
+
+a.project img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: top;
+  margin: 0 0 1rem;
+  border: 1px solid var(--lightgray);
+  transition: border-color 0.15s;
+}
+
+a.project:hover img {
+  border-color: var(--gray);
+}
+
+a.project h3 {
+  margin: 0;
+}
+
+// Quartz marks external links with an icon after them; a whole card is one
+// link, and it would sit alone under the description.
+a.project .external-icon {
+  display: none;
+}
+
+a.project p {
+  margin: 0.35rem 0 0;
+  font-size: 1rem;
+}
+
+a.project:hover h3 {
+  color: var(--secondary) !important;
+}
+
+.projects-all {
+  margin-top: 2rem;
+}
