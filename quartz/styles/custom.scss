@@ -216,8 +216,14 @@ article img {
 // what it's built with — each card one link to the project.
 .projects {
   display: grid;
-  gap: 3rem;
+  gap: 2.5rem;
   margin: 1.5rem 0 0;
+}
+
+// A hairline between one project and the next, halfway across the gap.
+a.project + a.project {
+  padding-top: 2.5rem;
+  border-top: 1px solid var(--lightgray);
 }
 
 a.project {
