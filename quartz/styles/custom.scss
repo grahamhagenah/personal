@@ -242,6 +242,14 @@ a.project img {
   transition: border-color 0.15s;
 }
 
+// A mockup (a desktop window with a phone beside it) carries its own frames
+// and shadows on a transparent ground, so it goes without the card's border.
+a.project img.mockup {
+  border: 0;
+  border-radius: 0;
+  object-fit: contain;
+}
+
 a.project:hover img {
   border-color: var(--gray);
 }
