@@ -211,20 +211,13 @@ article img {
   border-radius: 8px;
 }
 
-// Projects grid (home page and the Projects page): written as plain HTML in
-// the notes, two columns of cards — a screenshot, a title, a line about it —
-// each card one link to the project. One column on phones.
+// Projects (home page and the Projects page): written as plain HTML in the
+// notes, one column of cards — a screenshot, a title, a line about it, and
+// what it's built with — each card one link to the project.
 .projects {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 2.5rem 2rem;
+  gap: 3rem;
   margin: 1.5rem 0 0;
-}
-
-@media (max-width: 600px) {
-  .projects {
-    grid-template-columns: 1fr;
-  }
 }
 
 a.project {
@@ -260,6 +253,13 @@ a.project .external-icon {
 a.project p {
   margin: 0.35rem 0 0;
   font-size: 1rem;
+}
+
+// What it's built with: a small, dimmed line under the description.
+a.project p.project-tech {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--gray) !important; // The `body, p` color above is forced too.
 }
 
 a.project:hover h3 {
