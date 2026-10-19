@@ -157,7 +157,13 @@ h3 + p {
 // other pages' titles do. Start it where those titles start (their 3rem
 // h1 margin, above) so content doesn't jump between pages.
 body[data-slug="index"] article {
-  margin-top: 3rem;
+  margin-top: 5rem;
+}
+
+// The home page's intro gets room of its own: more space above it (above)
+// and below it, before the Projects heading.
+body[data-slug="index"] article h2 {
+  margin-top: 5rem;
 }
 
 p {
