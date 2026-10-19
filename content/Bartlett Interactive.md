@@ -1,5 +1,6 @@
 ---
 title: Bartlett Interactive
+socialImage: share/bartlett-interactive.png
 ---
 From 2019 to 2021 I was a web developer and designer at Bartlett Interactive, a small agency in Concord, Massachusetts, that builds websites for nonprofits and local organizations.
 

@@ -1,5 +1,6 @@
 ---
 title: Retro Blackjack
+socialImage: share/retro-blackjack.png
 ---
 Blackjack against the dealer, drawn in plain line art. [Play Retro Blackjack](https://blackjack-graham.netlify.app/) · [Source on GitHub](https://github.com/grahamhagenah/blackjack)
 

@@ -1,5 +1,6 @@
 ---
 title: Stacks
+socialImage: share/stacks.png
 ---
 A lending library for your own books: catalog what you own, connect with friends, and lend and borrow. [Open Stacks](https://bookstacks.site/) · [Source on GitHub](https://github.com/grahamhagenah/bookshelf)
 

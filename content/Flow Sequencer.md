@@ -1,5 +1,6 @@
 ---
 title: Flow Sequencer
+socialImage: share/flow-sequencer.png
 ---
 Build a yoga flow one pose at a time, then play it as a class that's read aloud. [Open Flow Sequencer](https://yoga.grahamhagenah.com/) · [Source on GitHub](https://github.com/grahamhagenah/flow-sequencer)
 

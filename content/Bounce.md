@@ -1,5 +1,6 @@
 ---
 title: Bounce
+socialImage: share/bounce.png
 ---
 A sketchpad for song demos in the browser: pick a key, build a chord progression, loop it, sing over it, and take the idea into a full DAW when it's worth keeping. [Open Bounce](https://bounce.grahamhagenah.com/) · [Source on GitHub](https://github.com/grahamhagenah/sketchpad)
 
