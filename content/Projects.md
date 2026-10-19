@@ -5,7 +5,7 @@ Things I've built on my own time.
 
 <div class="projects">
 <a class="project" href="https://pushpin.city/boston/">
-<img src="/screenshots/pushpin.jpg" alt="Pushpin Boston with the film You Can See Everything open beside today's listings: a still from the film, then its showtimes at the Somerville Theatre, Kendall Square and Coolidge Corner">
+<img class="mockup" src="/screenshots/pushpin.png" alt="Pushpin Boston in a desktop browser window, listing today's films, concerts and talks with their times and venues, beside a phone showing one film, You Can See Everything, open with a still from it and its showtimes at four theaters">
 <h3>Pushpin <span class="project-year">2026</span></h3>
 <p>Concerts, films and talks around Boston, the Bay Area and Western Mass, gathered from venues' own listings. I'm its developer and maintainer.</p>
 <p class="project-tech">Python · GitHub Actions · GitHub Pages</p>
