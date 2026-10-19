@@ -1,7 +1,7 @@
 ---
 title: Projects
 ---
-Things I've built on my own time.
+Noteworthy projects I've built on my own time, from 2021 to 2026. Most are written in React and TypeScript, with Remix for full-stack apps, Python for gathering data, browser APIs for sound and speech, and GitHub Actions and Pages to build and host them.
 
 <div class="projects">
 <a class="project" href="https://pushpin.city/boston/">

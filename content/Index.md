@@ -7,6 +7,8 @@ I’m a full-stack developer who makes fast, accessible websites and application
 
 ## Projects
 
+Noteworthy projects I've built on my own time, from 2021 to 2026. Most are written in React and TypeScript, with Remix for full-stack apps, Python for gathering data, browser APIs for sound and speech, and GitHub Actions and Pages to build and host them.
+
 <div class="projects">
 <a class="project" href="https://pushpin.city/boston/">
 <img class="mockup" src="/screenshots/pushpin.png" alt="Pushpin Boston in a desktop browser window, listing today's films, concerts and talks with their times and venues, beside a phone showing one film, You Can See Everything, open with a still from it and its showtimes at four theaters">
