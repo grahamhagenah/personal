@@ -1,9 +1,7 @@
 ---
 title: Graham Hagenah
 ---
-I’m a full-stack web developer, and I look after the whole of a project: the structure and styling of pages in the browser, and the APIs and databases behind them. I work mainly in React on a foundation of HTML, CSS, and JavaScript, and I’ve built WordPress sites for nonprofits, libraries and a university.
-
-I care about interfaces that look good, load fast and are easy to use, and I build accessibility into everything I make. I also work alongside AI tools, which leaves more of my time for the parts that need judgment: design, usability, and getting the details right. [Get in touch](mailto:gwhagenah@gmail.com) to talk about a project.
+I’m a full-stack web developer who builds fast, accessible websites and applications, from the interface in the browser to the APIs and databases behind it. I work mainly in React on a foundation of HTML, CSS, and JavaScript, and I’ve built WordPress sites for nonprofits, libraries and a university.
 
 <a class="link-button" href="/work">See my work history →</a>
 
