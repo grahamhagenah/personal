@@ -191,9 +191,76 @@ button.darkmode {
   top: 2px;
 }
 
-// Footer credit line reads as fine print, smaller than body paragraphs.
-footer p {
-  font-size: 0.85rem;
+// The footer (local-plugins/footer): well below the page, under a hairline
+// that spans the content's width, then a short intro and three columns of
+// links — the site's pages, the projects, and how to reach Graham — and the
+// credit as fine print. The colors are forced only where the `body, p` and
+// heading rules above force theirs.
+footer.site-footer {
+  margin: 6rem 0 3rem;
+  text-align: left;
+  opacity: 1;
+}
+
+.site-footer .footer-inner {
+  padding-top: 2.5rem;
+  border-top: 1px solid var(--lightgray);
+}
+
+.site-footer .footer-columns {
+  display: grid;
+  grid-template-columns: 1.4fr repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.site-footer .footer-name {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--dark) !important;
+}
+
+.site-footer .footer-blurb {
+  margin: 0.4rem 0 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--gray) !important;
+}
+
+.site-footer h2 {
+  margin: 0 0 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gray) !important;
+}
+
+.site-footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-footer li {
+  margin: 0 0 0.45rem;
+  font-size: 0.95rem;
+}
+
+.site-footer .footer-credit {
+  margin: 2.5rem 0 0;
+  font-size: 0.8rem;
+  color: var(--gray) !important;
+}
+
+@media (max-width: 800px) {
+  .site-footer .footer-columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .site-footer .footer-intro {
+    grid-column: 1 / -1;
+  }
 }
 
 // Quartz inserts a divider between every page's content and its footer.
