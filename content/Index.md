@@ -39,19 +39,14 @@ Noteworthy projects I've built on my own time, from 2021 to 2026. Most are writt
 
 ## Client work
 
-Sites I designed and developed for nonprofits and public institutions at Bartlett Interactive, between 2019 and 2021. Both are still running.
+Before working in-house, I designed and developed sites for nonprofits and public institutions around Boston at a small agency.
 
 <div class="projects">
-<a class="project" href="https://brooklinefoundation.org/">
-<img src="/screenshots/brooklinefoundation.jpg" alt="Brookline Education Foundation's home page: its apple logo and a menu for educators, grants and events beside a green Donate button, over a photo of a smiling teacher and student">
-<h3>Brookline Education Foundation</h3>
-<p>A site for a nonprofit that funds teachers and programs in Brookline's public schools, with sections for educators, grants and events, and online giving.</p>
-<p class="project-tech">WordPress · PHP · Bartlett Interactive</p>
+<a class="project" href="/bartlett-interactive">
+<img src="/screenshots/bartlett.webp" alt="Bartlett Interactive's office, a bright open studio with desks, two black lounge chairs around a glass table, and the agency's round b logo in the corner">
+<h3>Bartlett Interactive <span class="project-year">2019–2021</span></h3>
+<p>Web developer and designer at a Concord agency, delivering more than 30 sites for Boston-area nonprofits, libraries and community organizations.</p>
+<p class="project-tech">WordPress · PHP · HTML, CSS, JavaScript</p>
 </a>
-<a class="project" href="https://medfordlibrary.org/">
-<img src="/screenshots/medfordlibrary.jpg" alt="Medford Public Library's home page: catalog search, hours, contact details and quick links in blocks of blue, green and yellow beside a photo of the library building">
-<h3>Medford Public Library</h3>
-<p>A site for the city's public library, built around catalog search, hours and quick links, with event calendars and pages for children and teens.</p>
-<p class="project-tech">WordPress · PHP · Bartlett Interactive</p>
-</a>
+<a class="link-button project-case" href="/bartlett-interactive">See the client work →</a>
 </div>
