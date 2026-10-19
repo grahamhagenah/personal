@@ -255,6 +255,13 @@ a.project p {
   font-size: 1rem;
 }
 
+// The year it was started, beside its title, dimmed and unchanged on hover.
+a.project .project-year {
+  margin-left: 0.4rem;
+  font-size: 0.9rem;
+  color: var(--gray);
+}
+
 // What it's built with: a small, dimmed line under the description.
 a.project p.project-tech {
   margin-top: 0.5rem;
