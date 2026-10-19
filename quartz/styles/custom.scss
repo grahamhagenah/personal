@@ -256,6 +256,13 @@ a.project:hover img {
 
 a.project h3 {
   margin: 0;
+  // 600: the site loads Inter at 400, 600 and 700 only, so the 500 the other
+  // headings ask for draws as 400.
+  font-weight: 600;
+}
+
+a.project .project-year {
+  font-weight: 400;
 }
 
 // Quartz marks external links with an icon after them; a whole card is one
