@@ -11,6 +11,7 @@ Jun 2024 – Present
 Build and maintain web applications for the Arts Division and other campus departments, in WordPress and React, and automate processes that used to be done by hand.
 
 - Led the move of 8 department websites to WordPress, coordinating a 16-person content team to launch each one before the semester started.
+- Researched what staff needed and built a room reservation system that checks each room's live calendar, prevents double bookings, and sends every request to an administrator for approval.
 - Led accessibility work to meet WCAG AA across sites with more than 5,000 monthly visitors, and trained more than 50 staff, cutting accessibility-related support requests by 60% in six months.
 - After launch, average page loads were 70% faster and organic search traffic grew by 120%.
 
