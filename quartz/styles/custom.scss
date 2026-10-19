@@ -414,3 +414,8 @@ a.project:hover h3 {
 .projects-all {
   margin-top: 2rem;
 }
+
+// An email link opens a message, not another site: no external-link icon.
+a[href^="mailto:"] .external-icon {
+  display: none;
+}

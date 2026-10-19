@@ -1,7 +1,9 @@
 ---
 title: Graham Hagenah
 ---
-I’m a full-stack developer who makes fast, accessible websites and applications. I focus on interface design and user experience, working mainly in React on a foundation of HTML, CSS, and JavaScript. I also build sites in WordPress, and have made them for nonprofit clients.
+I’m a full-stack web developer, and I look after the whole of a project: the structure and styling of pages in the browser, and the APIs and databases behind them. I work mainly in React on a foundation of HTML, CSS, and JavaScript, and I’ve built WordPress sites for nonprofits, libraries and a university.
+
+I care about interfaces that look good, load fast and are easy to use, and I build accessibility into everything I make. I also work alongside AI tools, which leaves more of my time for the parts that need judgment: design, usability, and getting the details right. [Get in touch](mailto:gwhagenah@gmail.com) to talk about a project.
 
 <a class="link-button" href="/work">See my work history →</a>
 
@@ -34,3 +36,22 @@ Noteworthy projects I've built on my own time, from 2021 to 2026. Most are writt
 </div>
 
 <p class="projects-all"><a href="/projects">View all projects →</a></p>
+
+## Client work
+
+Sites I designed and developed for nonprofits and public institutions at Bartlett Interactive, between 2019 and 2021. Both are still running.
+
+<div class="projects">
+<a class="project" href="https://brooklinefoundation.org/">
+<img src="/screenshots/brooklinefoundation.jpg" alt="Brookline Education Foundation's home page: its apple logo and a menu for educators, grants and events beside a green Donate button, over a photo of a smiling teacher and student">
+<h3>Brookline Education Foundation</h3>
+<p>A site for a nonprofit that funds teachers and programs in Brookline's public schools, with sections for educators, grants and events, and online giving.</p>
+<p class="project-tech">WordPress · PHP · Bartlett Interactive</p>
+</a>
+<a class="project" href="https://medfordlibrary.org/">
+<img src="/screenshots/medfordlibrary.jpg" alt="Medford Public Library's home page: catalog search, hours, contact details and quick links in blocks of blue, green and yellow beside a photo of the library building">
+<h3>Medford Public Library</h3>
+<p>A site for the city's public library, built around catalog search, hours and quick links, with event calendars and pages for children and teens.</p>
+<p class="project-tech">WordPress · PHP · Bartlett Interactive</p>
+</a>
+</div>
