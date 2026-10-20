@@ -923,3 +923,17 @@ p.availability::before {
 .filmstrip::-webkit-scrollbar {
   display: none;
 }
+
+// Images given their real width and height in the markup (so the page
+// doesn't jump as they load) still scale with the column.
+article img[width][height] {
+  height: auto;
+}
+
+// The home page's closing "Get in touch", set apart by a hairline like the
+// one above Client work.
+h2.closing-contact {
+  margin-top: 4rem !important;
+  padding-top: 4rem;
+  border-top: 1px solid var(--lightgray);
+}
