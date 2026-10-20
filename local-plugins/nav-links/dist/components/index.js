@@ -5,6 +5,7 @@ import { resolveRelative } from "@quartz-community/utils"
 // page part of Work.
 const SECTION = {
   work: "work",
+  "client-work": "work",
   "bartlett-interactive": "work",
   projects: "projects",
   pushpin: "projects",

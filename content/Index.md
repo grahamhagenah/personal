@@ -45,13 +45,13 @@ Noteworthy projects I've built on my own time, from 2021 to 2026. Most are writt
 Before working in-house, I designed and developed sites for nonprofits and public institutions around Boston at a small agency.
 
 <div class="projects">
-<a class="project" href="/bartlett-interactive">
+<a class="project" href="/client-work">
 <img class="photo" src="/screenshots/bartlett.webp" width="1334" height="452" loading="lazy" decoding="async" alt="Bartlett Interactive's office, a bright open studio with desks by tall windows and two black lounge chairs around a glass table">
 <h3>Bartlett Interactive <span class="project-year">2019–2021</span></h3>
 <p>Web developer and designer at a Concord agency, delivering more than 30 sites for Boston-area nonprofits, libraries and community organizations.</p>
 <p class="project-tech">WordPress · PHP · HTML, CSS, JavaScript</p>
 </a>
-<a class="link-button project-case" href="/bartlett-interactive">See the client work →</a>
+<a class="link-button project-case" href="/client-work">See the client work →</a>
 </div>
 
 <h2 class="closing-contact">Get in touch</h2>

@@ -38,7 +38,7 @@ Designed and built CMS-driven websites for Boston-area nonprofits and local orga
 - Built responsive WordPress sites with HTML, CSS, JavaScript and PHP, optimized for accessibility, search and easy content editing.
 - Looked after server security and performance, keeping sites up 99.9% of the time.
 
-<a class="link-button" href="/bartlett-interactive">See the client work →</a>
+<a class="link-button" href="/client-work">See the client work →</a>
 
 ## Skills
 
