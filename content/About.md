@@ -41,7 +41,7 @@ I hike, ride my bike, shoot film, read science fiction, and go to the movies, es
 </figure>
 <figure>
 <img src="/photos/graham-hagenah-reintalangerhuette.jpg" alt="Graham Hagenah in a blue jacket and cap, sitting on the front steps of the Reintalangerhütte, a wooden mountain hut with green shutters, below sunlit limestone peaks">
-<figcaption>On the porch of the Reintalangerhütte, below the Zugspitze, Germany.</figcaption>
+<figcaption>On the porch of the Reintalangerhütte, on Zugspitze, Germany.</figcaption>
 </figure>
 </div>
 
