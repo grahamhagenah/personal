@@ -1068,3 +1068,9 @@ figure.case-figure figcaption {
   line-height: 1.45;
   color: var(--gray);
 }
+
+// A phone screenshot in a case study: narrower, so a tall image doesn't fill
+// the screen.
+figure.case-figure-phone {
+  max-width: 300px;
+}

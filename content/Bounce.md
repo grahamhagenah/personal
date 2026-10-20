@@ -22,11 +22,21 @@ You choose a key, mode, tempo and time signature, and Bounce offers the chords t
 
 **Musicians' terms, musicians' layouts.** The song view stacks sections top to bottom like a lead sheet, and the chord palette groups chords by function rather than listing every chord in the key. Timeline tracks take vivid colours the way Logic's do, so they feel familiar to anyone coming from a DAW.
 
+<figure class="case-figure">
+<img src="/screenshots/case-studies/bounce-palette.webp" width="1400" height="805" loading="lazy" decoding="async" alt="Bounce's verse timeline, with blue chord blocks and a yellow half-time drum track, and beside it the chord palette for G minor, grouped under Tonic, Predominant, Dominant and Borrowed">
+<figcaption>Adding a chord: the key's chords grouped by what they do, the way a songwriter thinks about them.</figcaption>
+</figure>
+
 **Cut what doesn't earn its place.** At one point Bounce had a rack of synth effects: width, resonance, delay, chorus and drive. After an audit I kept only reverb, the one that mattered for a demo. Section colours and dots went the same way.
 
 **Be honest about where work is stored.** Work lives in the browser, and browsers can clear it. Bounce says plainly when work isn't being stored, keeps backups and a list of recently deleted sketches, and makes export to a file one step away.
 
 **Phone first, not phone too.** On a phone, settings open as sheets from the bottom, the controls move to the top within reach, and track names sit above the tracks instead of beside them, where there's no room.
+
+<figure class="case-figure case-figure-phone">
+<img src="/screenshots/case-studies/bounce-phone.webp" width="700" height="1515" loading="lazy" decoding="async" alt="Bounce on a phone: the verse's chords and drums on a timeline, with track names above the tracks, and a sheet from the bottom listing G minor's chords, marking borrowed chords and the ones that usually come next, above a large Add Gm button">
+<figcaption>On a phone, chords come from a sheet within thumb's reach, with hints for what usually comes next.</figcaption>
+</figure>
 
 ## What broke, and how I caught it
 
