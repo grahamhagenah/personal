@@ -120,12 +120,23 @@ export const NavLinks = () => {
             next.disabled = strip.scrollLeft + strip.clientWidth > strip.scrollWidth - 4
           }
           strip.addEventListener("scroll", ends, { passive: true })
+          // It starts at its middle, so it reads as balanced rather than running off to the right, and stays centred
+          // as photos load until someone moves it themselves.
+          let touched = false
+          for (const ev of ["pointerdown", "wheel", "touchstart", "keydown"]) {
+            strip.addEventListener(ev, () => { touched = true }, { passive: true })
+          }
+          controls.addEventListener("click", () => { touched = true }, true)
+          const centre = () => {
+            if (!touched) strip.scrollLeft = (strip.scrollWidth - strip.clientWidth) / 2
+            ends()
+          }
           // Checked again whenever the strip or a photo in it changes size: photos that finish loading after this
           // runs would otherwise leave the arrows judging a strip with nothing in it yet.
-          const watch = new ResizeObserver(ends)
+          const watch = new ResizeObserver(centre)
           watch.observe(strip)
           strip.querySelectorAll("figure").forEach((f) => watch.observe(f))
-          ends()
+          centre()
         }
       }
       filmstrips()

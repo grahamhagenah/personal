@@ -828,11 +828,10 @@ p.availability::before {
   gap: 1rem;
   width: 100vw;
   margin: 1rem 0 0 calc(-1 * var(--bleed));
-  padding: 0 var(--bleed) 0.75rem;
+  padding: 0 var(--bleed);
   box-sizing: border-box;
   overflow-x: auto;
-  scrollbar-width: thin;
-  scrollbar-color: var(--lightgray) transparent;
+  scrollbar-width: none; // Scrolled by swipe, trackpad, keyboard or the arrows above.
 }
 
 .filmstrip:focus-visible {
@@ -919,4 +918,8 @@ p.availability::before {
   overflow: hidden;
   width: 0;
   min-width: 100%;
+}
+
+.filmstrip::-webkit-scrollbar {
+  display: none;
 }
