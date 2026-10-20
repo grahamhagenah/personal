@@ -808,13 +808,25 @@ p.availability::before {
   background: var(--secondary);
 }
 
-// A grid of photos (About, "Outside work"): two across, each cropped to the
-// same upright shape, with a small caption under it. One across on a phone.
+// Photos (About, "Outside work"), laid out like a photo spread: two columns,
+// each photo at its own shape, the right column set lower so they stagger. A
+// small caption under each. One column on a phone, without the offset.
 .photo-row {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.5rem 1rem;
+  gap: 1rem;
+  align-items: start;
   margin: 1.5rem 0 0;
+}
+
+.photo-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.photo-col + .photo-col {
+  margin-top: 3.5rem;
 }
 
 .photo-row figure {
@@ -823,8 +835,7 @@ p.availability::before {
 
 .photo-row img {
   width: 100%;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
+  height: auto;
   margin: 0 !important;
 }
 
@@ -838,5 +849,10 @@ p.availability::before {
 @media (max-width: 440px) {
   .photo-row {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .photo-col + .photo-col {
+    margin-top: 0;
   }
 }
