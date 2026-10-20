@@ -15,7 +15,17 @@ From 2019 to 2021 I designed and built websites for nonprofits, libraries and pu
 
 ## Clients
 
-The Brookline Education Foundation, the Charlotte and William Bloomberg Medford Public Library, the Lucius Beebe Memorial Library, Somerville Public Library, Brookline Arts Center, the Brookline Innovation Fund, Cognoa, Go Healthcare Staffing, and the Northeast Energy Efficiency Partnerships.
+<ul class="client-grid">
+<li><span class="client-name">Brookline Education Foundation</span><span class="client-kind">Education nonprofit</span></li>
+<li><span class="client-name">Medford Public Library</span><span class="client-kind">Public library</span></li>
+<li><span class="client-name">Lucius Beebe Memorial Library</span><span class="client-kind">Public library</span></li>
+<li><span class="client-name">Somerville Public Library</span><span class="client-kind">Public library</span></li>
+<li><span class="client-name">Brookline Arts Center</span><span class="client-kind">Arts nonprofit</span></li>
+<li><span class="client-name">Brookline Innovation Fund</span><span class="client-kind">Education nonprofit</span></li>
+<li><span class="client-name">Northeast Energy Efficiency Partnerships</span><span class="client-kind">Energy nonprofit</span></li>
+<li><span class="client-name">Cognoa</span><span class="client-kind">Health technology</span></li>
+<li><span class="client-name">Go Healthcare Staffing</span><span class="client-kind">Healthcare staffing</span></li>
+</ul>
 
 ## What clients said
 
