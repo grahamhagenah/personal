@@ -53,3 +53,5 @@ Before working in-house, I designed and developed sites for nonprofits and publi
 </a>
 <a class="link-button project-case" href="/bartlett-interactive">See the client work →</a>
 </div>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Graham Hagenah","url":"https://grahamhagenah.com/","image":"https://grahamhagenah.com/photos/graham-hagenah-boston-philly.jpg","jobTitle":"Applications Programmer","worksFor":{"@type":"CollegeOrUniversity","name":"University of California, Santa Cruz"},"alumniOf":{"@type":"CollegeOrUniversity","name":"University of Massachusetts Amherst"},"address":{"@type":"PostalAddress","addressLocality":"Somerville","addressRegion":"MA","addressCountry":"US"},"knowsAbout":["Web development","Web design","Accessibility","React","WordPress"],"sameAs":["https://github.com/grahamhagenah"]}</script>

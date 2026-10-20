@@ -807,3 +807,43 @@ p.availability::before {
   border-radius: 50%;
   background: var(--secondary);
 }
+
+// A row of photos (About, "Outside work"): three across, each cropped to the
+// same upright shape, with a small caption under it. Two across on a tablet,
+// one on a phone.
+.photo-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 0;
+}
+
+.photo-row figure {
+  margin: 0;
+}
+
+.photo-row img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  margin: 0 !important;
+}
+
+.photo-row figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: var(--gray);
+}
+
+@media (max-width: 700px) {
+  .photo-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 440px) {
+  .photo-row {
+    grid-template-columns: 1fr;
+  }
+}

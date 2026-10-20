@@ -24,7 +24,22 @@ While I still work for UC Santa Cruz, I've moved back to Massachusetts to be clo
 
 ## Outside work
 
-I ride my bike, read science fiction, and go to the movies, especially at the old independent theaters around Boston.
+I hike, ride my bike, shoot film, read science fiction, and go to the movies, especially at the old independent theaters around Boston. I also have an English setter named Philly.
+
+<div class="photo-row">
+<figure>
+<img src="/photos/graham-hagenah-boston-philly.jpg" alt="Graham Hagenah in a red jacket and cap, holding the leash of Philly, a black-and-white English setter sitting beside him, on the Rose Kennedy Greenway with Boston's Custom House tower behind them">
+<figcaption>With Philly on the Rose Kennedy Greenway, Boston.</figcaption>
+</figure>
+<figure>
+<img src="/photos/graham-hagenah-mount-hood.jpg" alt="Graham Hagenah in a sun hat with a backpack and camera, smiling on a rocky trail, with the snowy peak of Mount Hood behind him">
+<figcaption>On the Timberline Trail around Mount Hood, 2022.</figcaption>
+</figure>
+<figure>
+<img src="/photos/graham-hagenah-zugspitze.jpg" alt="Graham Hagenah with a backpack on a mossy, rocky trail between tall evergreens, a sunlit peak of the Zugspitze in the distance">
+<figcaption>Hiking the Zugspitze, Germany.</figcaption>
+</figure>
+</div>
 
 ## Get in touch
 
