@@ -808,77 +808,6 @@ p.availability::before {
   background: var(--secondary);
 }
 
-// Photos (About, "Outside work"), laid out like a photo spread: two columns,
-// each photo at its own shape, the right column set lower so they stagger. A
-// small caption under each. One column on a phone, without the offset.
-.photo-row {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-  align-items: start;
-  margin: 1.5rem 0 0;
-}
-
-.photo-col {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.photo-col + .photo-col {
-  margin-top: 3.5rem;
-}
-
-.photo-row figure {
-  margin: 0;
-}
-
-.photo-row img {
-  width: 100%;
-  height: auto;
-  margin: 0 !important;
-}
-
-.photo-row figcaption {
-  margin-top: 0.5rem;
-  font-size: 0.85rem;
-  line-height: 1.45;
-  color: var(--gray);
-}
-
-@media (max-width: 440px) {
-  .photo-row {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-
-  .photo-col + .photo-col {
-    margin-top: 0;
-  }
-}
-
-// A more jagged spread: the photos in different shapes (Boston square, the
-// hut tall, Acadia upright, Mount Hood at its own shape) and the right column set lower,
-// so no two edges line up across the columns.
-.photo-col + .photo-col {
-  margin-top: 6rem;
-}
-
-.photo-row img {
-  object-fit: cover;
-}
-
-.photo-row img[src*="boston-philly"] { aspect-ratio: 1 / 1; }
-.photo-row img[src*="reintalangerhuette"] { aspect-ratio: 3 / 4; }
-.photo-row img[src*="acadia-bike"] { aspect-ratio: 4 / 5; object-position: 35% center; }
-.photo-row img[src*="mount-hood"] { aspect-ratio: auto; }
-
-@media (max-width: 440px) {
-  .photo-col + .photo-col {
-    margin-top: 0;
-  }
-}
-
 // The line introducing the photos Graham took, set apart from the photos of
 // him above it.
 .photo-intro {
@@ -886,21 +815,108 @@ p.availability::before {
   margin-bottom: 0 !important;
 }
 
-// A wide photo on its own above a spread (Zion, above the photos Graham
-// took), at its own shape, with its caption under it.
-figure.photo-wide {
-  margin: 1.5rem 0 0;
+// Filmstrips (About, "Outside work"): a row of photos all the same height,
+// each at its own width, scrolling sideways. The strip runs to the window's
+// edges, its first photo lined up with the text and the last able to scroll
+// back to it; a photo cut off at the edge shows there's more. Arrow buttons
+// above it on screens with a mouse (added by the script in
+// local-plugins/nav-links). Captions sit under each photo, as wide as it is.
+.filmstrip {
+  --bleed: max(0px, (100vw - 100%) / 2);
+  display: flex;
+  align-items: flex-start; // Each caption right under its own photo.
+  gap: 1rem;
+  width: 100vw;
+  margin: 1rem 0 0 calc(-1 * var(--bleed));
+  padding: 0 var(--bleed) 0.75rem;
+  box-sizing: border-box;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--lightgray) transparent;
 }
 
-figure.photo-wide img {
-  width: 100%;
-  height: auto;
+.filmstrip:focus-visible {
+  outline: 2px solid var(--secondary);
+  outline-offset: 4px;
+}
+
+.filmstrip figure {
+  display: table;
+  flex: none;
+  margin: 0;
+}
+
+.filmstrip img {
+  display: block;
+  width: auto;
+  height: 300px;
   margin: 0 !important;
 }
 
-figure.photo-wide figcaption {
-  margin-top: 0.5rem;
+.filmstrip figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  padding-top: 0.5rem;
   font-size: 0.85rem;
   line-height: 1.45;
   color: var(--gray);
+}
+
+@media (max-width: 600px) {
+  .filmstrip img {
+    height: 240px;
+  }
+}
+
+.filmstrip-controls {
+  display: none;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin: 1rem 0 -0.25rem;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .filmstrip-controls {
+    display: flex;
+  }
+}
+
+.filmstrip-controls button {
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  border-radius: 50%;
+  background: none;
+  color: var(--darkgray);
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, opacity 0.15s;
+}
+
+.filmstrip-controls button:hover:not(:disabled) {
+  border-color: var(--gray);
+  color: var(--secondary);
+}
+
+.filmstrip-controls button:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.filmstrip-controls button:focus-visible {
+  outline: 2px solid var(--secondary);
+  outline-offset: 2px;
+}
+
+// Captions in a filmstrip stop at two lines; a longer one ends in an ellipsis.
+.filmstrip figcaption {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  width: 0;
+  min-width: 100%;
 }

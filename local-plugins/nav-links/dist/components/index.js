@@ -89,6 +89,47 @@ export const NavLinks = () => {
       window.addEventListener("scroll", update, { passive: true })
       document.addEventListener("focusin", update)
       document.addEventListener("nav", () => { lastY = 0; update() })
+
+      // Filmstrips: a pair of arrow buttons above each, which page it along by most of its width and grey out
+      // at either end. (Pages are swapped in place, so they're added again after each move around the site.)
+      const arrow = (d) => '<svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="' + d + '"/></svg>'
+      const filmstrips = () => {
+        for (const strip of document.querySelectorAll(".filmstrip")) {
+          if (strip.dataset.ready) continue
+          strip.dataset.ready = "true"
+          const controls = document.createElement("div")
+          controls.className = "filmstrip-controls"
+          const make = (label, d, dir) => {
+            const b = document.createElement("button")
+            b.type = "button"
+            b.setAttribute("aria-label", label)
+            b.setAttribute("aria-controls", strip.id)
+            b.innerHTML = arrow(d)
+            b.addEventListener("click", () => {
+              const smooth = !matchMedia("(prefers-reduced-motion: reduce)").matches
+              strip.scrollBy({ left: dir * strip.clientWidth * 0.7, behavior: smooth ? "smooth" : "auto" })
+            })
+            return b
+          }
+          const prev = make("Scroll photos back", "M10 3.5L5.5 8l4.5 4.5", -1)
+          const next = make("Scroll photos forward", "M6 3.5L10.5 8 6 12.5", 1)
+          controls.append(prev, next)
+          strip.before(controls)
+          const ends = () => {
+            prev.disabled = strip.scrollLeft < 4
+            next.disabled = strip.scrollLeft + strip.clientWidth > strip.scrollWidth - 4
+          }
+          strip.addEventListener("scroll", ends, { passive: true })
+          // Checked again whenever the strip or a photo in it changes size: photos that finish loading after this
+          // runs would otherwise leave the arrows judging a strip with nothing in it yet.
+          const watch = new ResizeObserver(ends)
+          watch.observe(strip)
+          strip.querySelectorAll("figure").forEach((f) => watch.observe(f))
+          ends()
+        }
+      }
+      filmstrips()
+      document.addEventListener("nav", filmstrips)
     }
   `
   return SiteNavLinks

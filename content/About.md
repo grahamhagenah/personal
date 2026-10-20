@@ -26,57 +26,31 @@ While I still work for UC Santa Cruz, I've moved back to Massachusetts to be clo
 
 I hike, ride my bike, shoot film, read science fiction, and go to the movies, especially at the old independent theaters around Boston. I also have an English setter named Philly.
 
-<div class="photo-row">
-<div class="photo-col">
+<div class="filmstrip" id="photos" role="region" aria-label="Photos of Graham and photos he has taken" tabindex="0">
 <figure>
 <img src="/photos/graham-hagenah-boston-philly.jpg" alt="Graham Hagenah in a red jacket and cap, holding the leash of Philly, a black-and-white English setter sitting beside him, on the Rose Kennedy Greenway with Boston's Custom House tower behind them">
 <figcaption>With Philly on the Rose Kennedy Greenway, Boston.</figcaption>
 </figure>
 <figure>
-<img src="/photos/graham-hagenah-reintalangerhuette.jpg" alt="Graham Hagenah in a blue jacket and cap, sitting on the front steps of the Reintalangerhütte, a wooden mountain hut with green shutters, below sunlit limestone peaks">
-<figcaption>On the porch of the Reintalangerhütte, on Zugspitze, Germany.</figcaption>
+<img src="/photos/photo-by-graham-hagenah-bryce.jpg" alt="Photo by Graham Hagenah: orange and white hoodoos, tall eroded rock spires, dusted with snow among a few pine trees">
+<figcaption>Hoodoos in the snow, Bryce Canyon, Utah.</figcaption>
 </figure>
-</div>
-<div class="photo-col">
 <figure>
 <img src="/photos/graham-hagenah-acadia-bike.jpg" alt="Graham Hagenah in a bike helmet, standing with his silver road bike on a coastal road, a rocky beach and evergreen shoreline behind him under a blue sky">
 <figcaption>On my bike in Acadia National Park, Maine.</figcaption>
 </figure>
 <figure>
-<img src="/photos/graham-hagenah-mount-hood.jpg" alt="Graham Hagenah in a sun hat with a backpack and camera, smiling on a rocky trail, with the snowy peak of Mount Hood behind him">
-<figcaption>On the Timberline Trail around Mount Hood, 2022.</figcaption>
-</figure>
-</div>
-</div>
-
-<p class="photo-intro">A few photos I've taken:</p>
-
-<figure class="photo-wide">
-<img src="/photos/photo-by-graham-hagenah-zion.jpg" alt="Photo by Graham Hagenah: looking down from high above into a red rock canyon, a road curving along the cliffs beside a winding river">
-<figcaption>Looking down into Zion Canyon, Utah.</figcaption>
-</figure>
-
-<div class="photo-row">
-<div class="photo-col">
-<figure>
-<img src="/photos/photo-by-graham-hagenah-bryce.jpg" alt="Photo by Graham Hagenah: orange and white hoodoos, tall eroded rock spires, dusted with snow among a few pine trees">
-<figcaption>Hoodoos in the snow, Bryce Canyon, Utah.</figcaption>
-</figure>
-<figure>
 <img src="/photos/photo-by-graham-hagenah-malibu.jpg" alt="Photo by Graham Hagenah: a coastal highway in hazy golden light, telephone poles leading toward the ocean and layered hills">
 <figcaption>Pacific Coast Highway at Mulholland Highway, Malibu.</figcaption>
 </figure>
-</div>
-<div class="photo-col">
+<figure>
+<img src="/photos/graham-hagenah-mount-hood.jpg" alt="Graham Hagenah in a sun hat with a backpack and camera, smiling on a rocky trail, with the snowy peak of Mount Hood behind him">
+<figcaption>On the Timberline Trail around Mount Hood, 2022.</figcaption>
+</figure>
 <figure>
 <img src="/photos/photo-by-graham-hagenah-blue-jay.jpg" alt="Photo by Graham Hagenah: a blue jay perched on a branch among orange fall leaves">
 <figcaption>A blue jay in the fall.</figcaption>
 </figure>
-<figure>
-<img src="/photos/photo-by-graham-hagenah-art-deco-tower.jpg" alt="Photo by Graham Hagenah, in black and white: the stepped top of an art deco office tower, its stone piers and arched windows rising against a pale sky">
-<figcaption>An art deco tower, in black and white.</figcaption>
-</figure>
-</div>
 </div>
 
 ## Get in touch
