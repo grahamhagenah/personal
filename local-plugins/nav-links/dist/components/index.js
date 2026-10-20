@@ -24,7 +24,7 @@ export const NavLinks = () => {
           { "aria-label": "Menu" },
           h(
             "svg",
-            { viewBox: "0 0 24 24", width: 22, height: 22, "aria-hidden": "true", fill: "none", stroke: "currentColor", "stroke-width": 1.6, "stroke-linecap": "round" },
+            { viewBox: "0 0 24 24", width: 30, height: 30, "aria-hidden": "true", fill: "none", stroke: "currentColor", "stroke-width": 1.6, "stroke-linecap": "round" },
             h("path", { d: "M5 9.5h14M9 14.5h10" }),
           ),
         ),
