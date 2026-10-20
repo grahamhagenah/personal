@@ -856,3 +856,25 @@ p.availability::before {
     margin-top: 0;
   }
 }
+
+// A more jagged spread: the photos in different shapes (Boston square, the
+// hut tall, Acadia upright, Mount Hood at its own shape) and the right column set lower,
+// so no two edges line up across the columns.
+.photo-col + .photo-col {
+  margin-top: 6rem;
+}
+
+.photo-row img {
+  object-fit: cover;
+}
+
+.photo-row img[src*="boston-philly"] { aspect-ratio: 1 / 1; }
+.photo-row img[src*="reintalangerhuette"] { aspect-ratio: 3 / 4; }
+.photo-row img[src*="acadia-bike"] { aspect-ratio: 4 / 5; object-position: 35% center; }
+.photo-row img[src*="mount-hood"] { aspect-ratio: auto; }
+
+@media (max-width: 440px) {
+  .photo-col + .photo-col {
+    margin-top: 0;
+  }
+}
