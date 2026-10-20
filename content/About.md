@@ -32,6 +32,10 @@ I hike, ride my bike, shoot film, read science fiction, and go to the movies, es
 <figcaption>With Philly on the Rose Kennedy Greenway, Boston.</figcaption>
 </figure>
 <figure>
+<img src="/photos/graham-hagenah-acadia-bike.jpg" alt="Graham Hagenah in a bike helmet, standing with his silver road bike on a coastal road, a rocky beach and evergreen shoreline behind him under a blue sky">
+<figcaption>On my bike in Acadia National Park, Maine.</figcaption>
+</figure>
+<figure>
 <img src="/photos/graham-hagenah-mount-hood.jpg" alt="Graham Hagenah in a sun hat with a backpack and camera, smiling on a rocky trail, with the snowy peak of Mount Hood behind him">
 <figcaption>On the Timberline Trail around Mount Hood, 2022.</figcaption>
 </figure>
