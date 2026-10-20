@@ -737,3 +737,26 @@ a.project img {
   max-width: none !important;
   margin-left: calc(50% - var(--wide) / 2) !important;
 }
+
+// The sticky header's background runs the full width of the window, not just
+// the content column, so nothing shows through in the gutters beside it. Two
+// shadows with a huge spread paint it: the background, and under it, showing
+// only as a 1px strip below the header once the page has scrolled, the
+// hairline. The clip keeps them to the header's height (plus that 1px), and
+// shadows don't make the page any wider.
+.page > #quartz-body .page-header {
+  border-bottom: 0 !important;
+  box-shadow: 0 0 0 100vmax var(--light), 0 1px 0 100vmax transparent;
+  clip-path: inset(0 -100vmax -1px);
+  transition: transform 0.25s ease, box-shadow 0.2s;
+}
+
+.page > #quartz-body .page-header.scrolled {
+  box-shadow: 0 0 0 100vmax var(--light), 0 1px 0 100vmax var(--lightgray);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page > #quartz-body .page-header {
+    transition: none;
+  }
+}
