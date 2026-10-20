@@ -6,7 +6,7 @@ socialImage: share/index.png
 
 I’m a full-stack web developer who builds fast, accessible websites and applications, from the interface in the browser to the APIs and databases behind it. I work mainly in React on a foundation of HTML, CSS, and JavaScript, and I’ve built WordPress sites for nonprofits, libraries and a university.
 
-<p class="availability">Based in Somerville, MA, and open to full-stack and front-end roles in any city, ideally the Boston area.</p>
+<p class="availability"><span class="availability-label">Open to work</span>Based in Somerville, MA, and open to full-stack and front-end roles in any city, ideally the Boston area.</p>
 
 <a class="link-button" href="/work">See my work history →</a>
 
