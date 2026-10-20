@@ -51,6 +51,11 @@ I hike, ride my bike, shoot film, read science fiction, and go to the movies, es
 
 <p class="photo-intro">A few photos I've taken:</p>
 
+<figure class="photo-wide">
+<img src="/photos/photo-by-graham-hagenah-zion.jpg" alt="Photo by Graham Hagenah: looking down from high above into a red rock canyon, a road curving along the cliffs beside a winding river">
+<figcaption>Looking down into Zion Canyon, Utah.</figcaption>
+</figure>
+
 <div class="photo-row">
 <div class="photo-col">
 <figure>
@@ -58,8 +63,8 @@ I hike, ride my bike, shoot film, read science fiction, and go to the movies, es
 <figcaption>Hoodoos in the snow, Bryce Canyon, Utah.</figcaption>
 </figure>
 <figure>
-<img src="/photos/photo-by-graham-hagenah-zion.jpg" alt="Photo by Graham Hagenah: looking down from high above into a red rock canyon, a road curving along the cliffs beside a winding river">
-<figcaption>Looking down into Zion Canyon, Utah.</figcaption>
+<img src="/photos/photo-by-graham-hagenah-malibu.jpg" alt="Photo by Graham Hagenah: a coastal highway in hazy golden light, telephone poles leading toward the ocean and layered hills">
+<figcaption>Pacific Coast Highway at Mulholland Highway, Malibu.</figcaption>
 </figure>
 </div>
 <div class="photo-col">
@@ -68,8 +73,8 @@ I hike, ride my bike, shoot film, read science fiction, and go to the movies, es
 <figcaption>A blue jay in the fall.</figcaption>
 </figure>
 <figure>
-<img src="/photos/photo-by-graham-hagenah-malibu.jpg" alt="Photo by Graham Hagenah: a coastal highway in hazy golden light, telephone poles leading toward the ocean and layered hills">
-<figcaption>Pacific Coast Highway at Mulholland Highway, Malibu.</figcaption>
+<img src="/photos/photo-by-graham-hagenah-art-deco-tower.jpg" alt="Photo by Graham Hagenah, in black and white: the stepped top of an art deco office tower, its stone piers and arched windows rising against a pale sky">
+<figcaption>An art deco tower, in black and white.</figcaption>
 </figure>
 </div>
 </div>

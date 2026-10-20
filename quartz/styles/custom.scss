@@ -885,3 +885,22 @@ p.availability::before {
   margin-top: 3rem !important;
   margin-bottom: 0 !important;
 }
+
+// A wide photo on its own above a spread (Zion, above the photos Graham
+// took), at its own shape, with its caption under it.
+figure.photo-wide {
+  margin: 1.5rem 0 0;
+}
+
+figure.photo-wide img {
+  width: 100%;
+  height: auto;
+  margin: 0 !important;
+}
+
+figure.photo-wide figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: var(--gray);
+}
