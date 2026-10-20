@@ -21,12 +21,11 @@ export const NavLinks = () => {
         { class: "site-nav-menu" },
         h(
           "summary",
-          null,
-          "Menu",
+          { "aria-label": "Menu" },
           h(
             "svg",
-            { viewBox: "0 0 12 12", width: 11, height: 11, "aria-hidden": "true", fill: "none", stroke: "currentColor", "stroke-width": 1.5, "stroke-linecap": "round", "stroke-linejoin": "round" },
-            h("path", { d: "M3 4.5l3 3 3-3" }),
+            { viewBox: "0 0 24 24", width: 22, height: 22, "aria-hidden": "true", fill: "none", stroke: "currentColor", "stroke-width": 1.6, "stroke-linecap": "round" },
+            h("path", { d: "M5 9.5h14M9 14.5h10" }),
           ),
         ),
         h("div", { class: "site-nav-panel" }, links()),

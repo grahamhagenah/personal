@@ -549,28 +549,20 @@ header {
 }
 
 .site-nav-menu summary {
-  display: flex;
-  align-items: center;
-  gap: 0.35rem;
-  padding: 0.25rem 0.1rem;
-  font-size: 1.15rem;
-  font-weight: 500;
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 6px;
   color: var(--darkgray);
   cursor: pointer;
   list-style: none;
-  transition: color 0.15s;
+  transition: color 0.15s, background-color 0.15s;
 }
 
-.site-nav-menu summary:hover {
+.site-nav-menu summary:hover,
+.site-nav-menu[open] summary {
   color: var(--secondary);
-}
-
-.site-nav-menu summary svg {
-  transition: transform 0.15s;
-}
-
-.site-nav-menu[open] summary svg {
-  transform: rotate(180deg);
 }
 
 .site-nav-menu summary::-webkit-details-marker {
