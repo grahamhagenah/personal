@@ -1074,3 +1074,29 @@ figure.case-figure figcaption {
 figure.case-figure-phone {
   max-width: 300px;
 }
+
+// Three photos in a row (About, Santa Cruz): the same upright shape, small
+// captions, still three across on a phone since they're only illustrations.
+.photo-trio {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.photo-trio figure {
+  margin: 0;
+}
+
+.photo-trio img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  margin: 0 !important;
+}
+
+.photo-trio figcaption {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--gray);
+}

@@ -13,6 +13,21 @@ I grew up in Western Massachusetts and studied Informatics at UMass Amherst, a p
 
 In 2019 I joined Bartlett Interactive, a small agency in Concord, Massachusetts, building websites for Boston-area nonprofits and public institutions. From there I moved in-house to The Predictive Index, a workplace analytics company, where I built their marketing site and a platform for their virtual conference. Since 2024 I've been at UC Santa Cruz.
 
+<div class="photo-trio">
+<figure>
+<img src="/photos/photo-by-graham-hagenah-santa-cruz-coast.webp" loading="lazy" decoding="async" alt="Photo by Graham Hagenah: waves breaking against a sandstone sea cliff under a deep blue sky, with purple ice plant flowers in the foreground">
+<figcaption>The coast</figcaption>
+</figure>
+<figure>
+<img src="/photos/photo-by-graham-hagenah-santa-cruz-redwoods.webp" loading="lazy" decoding="async" alt="Photo by Graham Hagenah: looking straight up through a ring of tall redwood trunks to a sunlit canopy">
+<figcaption>The redwoods</figcaption>
+</figure>
+<figure>
+<img src="/photos/photo-by-graham-hagenah-santa-cruz-deer.webp" loading="lazy" decoding="async" alt="Photo by Graham Hagenah: a young black-tailed buck with two-point antlers standing in dry grass, looking at the camera">
+<figcaption>A local</figcaption>
+</figure>
+</div>
+
 While I still work for UC Santa Cruz, I've moved back to Massachusetts to be closer to friends and family, and I now live in Somerville.
 
 ## How I work
