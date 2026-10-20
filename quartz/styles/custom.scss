@@ -1048,3 +1048,23 @@ ul.client-grid li::marker {
 :root {
   --button-border: color-mix(in srgb, var(--gray) 70%, var(--lightgray));
 }
+
+// A screenshot in a case study, next to the section it illustrates: as wide
+// as the text, with a hairline border and a small caption under it.
+figure.case-figure {
+  margin: 1.75rem 0 2rem;
+}
+
+figure.case-figure img {
+  width: 100%;
+  margin: 0 !important;
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+}
+
+figure.case-figure figcaption {
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: var(--gray);
+}

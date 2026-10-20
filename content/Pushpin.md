@@ -23,6 +23,11 @@ Pushpin reads 58 venues' listings across three cities and shows what's on, day b
 
 **Lead with the event, not the venue.** Each row starts with the title, then the times, with the venue on the right. On a phone the row reads as a sentence. I tried a few layouts against real listings before settling on this one.
 
+<figure class="case-figure">
+<img src="/screenshots/case-studies/pushpin-listing.webp" width="1400" height="878" loading="lazy" decoding="async" alt="Pushpin Boston with one film, You Can See Everything, open in a panel beside the list: a still from the film, its showtimes at four theaters with one sold out, and a short description">
+<figcaption>One film, four theaters: opening a row shows every showtime, with sold-out ones struck through.</figcaption>
+</figure>
+
 **Leave things to the venues.** Pushpin doesn't show ticket prices for films or age limits for shows. Venues change those, and a wrong price is worse than none. Every listing links straight to the venue's own page.
 
 **Say no to features that would quietly fail.** I considered letting people save events. With no accounts, saves would live in the browser, and Safari deletes that storage after a week without a visit, so saves would vanish for anyone who checks in every couple of weeks. I set it aside.
@@ -36,6 +41,11 @@ Pushpin reads 58 venues' listings across three cities and shows what's on, day b
 **The Bay Area thought it was tomorrow.** The page decided what "today" meant using Boston's clock, so in California the evening's events disappeared hours early. Each city now carries its own time zone, from the build through to the page.
 
 **Venues change their websites without notice.** Each venue reader is tested against saved copies of real pages, so a change that breaks one fails the tests instead of the live site. If a source keeps failing for hours, the build opens an issue on GitHub, which emails me.
+
+<figure class="case-figure">
+<img src="/screenshots/case-studies/pushpin-alert.webp" width="1400" height="1010" loading="lazy" decoding="async" alt="A GitHub issue opened by the build: Source failing: Lizard Lounge (events), saying the venue has failed every build for about six hours with a 504 error, followed by the build's own reply, Lizard Lounge is loading again, and the issue closed">
+<figcaption>The build opened this issue when a venue's site went down, and closed it again on its own once the site came back.</figcaption>
+</figure>
 
 ## How it's built
 

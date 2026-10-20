@@ -22,9 +22,19 @@ Pick a starting pose and Flow Sequencer offers only the moves that can come next
 
 **A map of moves, not a list of poses.** The core of the app is a graph: 88 poses and 365 moves between them, each move with its cue and which side it leaves you on. Building a flow means walking that graph, so it can't produce a sequence that doesn't work.
 
+<figure class="case-figure">
+<img src="/screenshots/case-studies/flow-sequencer-moves.webp" width="1400" height="755" loading="lazy" decoding="async" alt="Flow Sequencer's next-pose list after Easy Seat: ten moves that can follow it, each with its cue and a line drawing, like Come onto hands and knees for Tabletop and Twist to the right for Seated Twist, with a choice of right or left side">
+<figcaption>After Easy Seat, only the ten moves that can actually follow are offered, each with the cue that's read aloud.</figcaption>
+</figure>
+
 **One breath, one movement.** Cues and timing follow the breath, the way a vinyasa class is taught, and class lengths are calculated honestly from the breaths rather than rounded to look tidy.
 
 **Drawn poses, not photos.** Every pose is a simple line figure, consistent and readable at any size. I drew some of them myself and redrew others as the set grew.
+
+<figure class="case-figure">
+<img src="/screenshots/case-studies/flow-sequencer-poses.webp" width="1400" height="388" loading="lazy" decoding="async" alt="Five of Flow Sequencer's pose drawings in white line art, Mountain, Upward Salute, Standing Forward Fold, Halfway Lift and Chair, each with its Sanskrit name and cue">
+<figcaption>A few of the 88 pose drawings, each with its Sanskrit name and cue.</figcaption>
+</figure>
 
 **The best voice, not the default one.** Browsers default to an old, robotic voice even when better ones are installed. Flow Sequencer ranks the voices on the device and picks the most natural, skipping the novelty voices macOS ships with.
 
