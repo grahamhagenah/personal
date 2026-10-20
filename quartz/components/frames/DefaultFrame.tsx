@@ -28,27 +28,31 @@ export const DefaultFrame: PageFrame = {
             <BodyComponent {...componentData} />
           ))}
         </div>
-        <main class="center">
+        <div class="center">
           <div class="page-header">
             <Header {...componentData}>
               {header.map((HeaderComponent) => (
                 <HeaderComponent {...componentData} />
               ))}
             </Header>
+          </div>
+          {/* The page's main landmark: its title and content, after the site header and before the footer. A
+              div with the role rather than <main>, which the theme styles in a way that drops the column's padding. */}
+          <div class="page-main" role="main">
             <div class="popover-hint">
               {beforeBody.map((BodyComponent) => (
                 <BodyComponent {...componentData} />
               ))}
             </div>
+            <Content {...componentData} />
+            <hr />
+            <div class="page-footer">
+              {afterBody.map((BodyComponent) => (
+                <BodyComponent {...componentData} />
+              ))}
+            </div>
           </div>
-          <Content {...componentData} />
-          <hr />
-          <div class="page-footer">
-            {afterBody.map((BodyComponent) => (
-              <BodyComponent {...componentData} />
-            ))}
-          </div>
-        </main>
+        </div>
         <div class="right sidebar">
           {right.map((BodyComponent) => (
             <BodyComponent {...componentData} />

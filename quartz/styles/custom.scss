@@ -529,3 +529,94 @@ button:focus-visible {
   outline-offset: 3px;
   border-radius: 4px;
 }
+
+// The header stays on one line: the site's name on the left, the page links
+// and dark mode toggle on the right. On a narrow screen the page links fold
+// into a menu button (local-plugins/nav-links) that opens a small panel.
+header {
+  flex-wrap: nowrap !important;
+}
+
+.site-nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.site-nav-menu {
+  display: none;
+  position: relative;
+}
+
+.site-nav-menu summary {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.1rem;
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--darkgray);
+  cursor: pointer;
+  list-style: none;
+  transition: color 0.15s;
+}
+
+.site-nav-menu summary:hover {
+  color: var(--secondary);
+}
+
+.site-nav-menu summary svg {
+  transition: transform 0.15s;
+}
+
+.site-nav-menu[open] summary svg {
+  transform: rotate(180deg);
+}
+
+.site-nav-menu summary::-webkit-details-marker {
+  display: none;
+}
+
+.site-nav-menu summary:focus-visible {
+  outline: 2px solid var(--secondary);
+  outline-offset: 2px;
+}
+
+.site-nav-panel {
+  position: absolute;
+  z-index: 10;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  min-width: 10rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0.4rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  background: var(--light);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+}
+
+.site-nav-panel a {
+  padding: 0.55rem 0.75rem !important;
+  border-radius: 6px;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--darkgray) !important;
+  text-decoration: none !important;
+}
+
+.site-nav-panel a:hover {
+  background: var(--lightgray) !important;
+  color: var(--secondary) !important;
+}
+
+@media (max-width: 560px) {
+  .site-nav-links {
+    display: none;
+  }
+
+  .site-nav-menu {
+    display: block;
+  }
+}
