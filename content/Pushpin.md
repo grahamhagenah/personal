@@ -27,7 +27,7 @@ Pushpin reads 58 venues' listings across three cities and shows what's on, day b
 
 **Say no to features that would quietly fail.** I considered letting people save events. With no accounts, saves would live in the browser, and Safari deletes that storage after a week without a visit, so saves would vanish for anyone who checks in every couple of weeks. I set it aside.
 
-**Deepen before spreading.** After adding the Bay Area, I chose to fill the gaps in the cities I cover rather than add new ones. A city with half its venues missing isn't useful.
+**Fuller coverage over more cities.** After launching the Bay Area, I focused on filling gaps in the cities Pushpin already covers instead of adding new ones. A city missing half its venues isn't much use to anyone.
 
 ## What broke, and how I caught it
 
