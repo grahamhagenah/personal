@@ -748,7 +748,9 @@ a.project img {
   border-bottom: 0 !important;
   box-shadow: 0 0 0 100vmax var(--light), 0 1px 0 100vmax transparent;
   clip-path: inset(0 -100vmax -1px);
-  transition: transform 0.25s ease, box-shadow 0.2s;
+  // Only the slide animates: a fading shadow would show the old theme's colour
+  // in the gutters for a moment after switching between light and dark.
+  transition: transform 0.25s ease;
 }
 
 .page > #quartz-body .page-header.scrolled {
@@ -991,11 +993,11 @@ ul.client-grid {
 ul.client-grid li {
   display: flex;
   align-items: center;
-  gap: 0.9rem;
+  gap: 0.75rem;
   margin: 0;
-  padding: 0.85rem 1rem;
+  padding: 0.7rem 0.9rem;
   border: 1px solid var(--lightgray);
-  border-radius: 8px;
+  border-radius: 6px;
 }
 
 ul.client-grid li::marker {
@@ -1004,15 +1006,11 @@ ul.client-grid li::marker {
 
 .client-icon {
   flex: none;
-  width: 2.5rem;
-  height: 2.5rem;
-  padding: 0.55rem;
-  box-sizing: border-box;
-  border-radius: 8px;
-  background: color-mix(in srgb, var(--secondary) 12%, transparent);
+  width: 1.25rem;
+  height: 1.25rem;
   fill: none;
-  stroke: var(--secondary);
-  stroke-width: 1.6;
+  stroke: var(--gray);
+  stroke-width: 1.5;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
@@ -1020,18 +1018,19 @@ ul.client-grid li::marker {
 .client-text {
   display: flex;
   flex-direction: column;
-  gap: 0.2rem;
+  gap: 0.1rem;
   min-width: 0;
 }
 
 .client-name {
+  font-size: 0.95rem;
   font-weight: 600;
   line-height: 1.35;
   color: var(--dark);
 }
 
 .client-kind {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: var(--gray);
 }
 
