@@ -30,7 +30,7 @@ Noteworthy projects I've built on my own time, from 2021 to 2026. Most are writt
 </a>
 <a class="link-button project-case" href="/flow-sequencer">Read the case study →</a>
 <a class="project" href="https://bounce.grahamhagenah.com/">
-<img class="mockup" src="/screenshots/bounce.png" alt="Bounce in a desktop browser window, its song sections laid out as rows of chord blocks, beside the same song on a phone, where the rows stack to fit the narrow screen">
+<img class="mockup" src="/screenshots/bounce.png" alt="Bounce in a desktop browser window, its song sections laid out as rows of chord blocks, beside a phone open to the verse: its chords and drums on a timeline, and below them the chords of G minor to tap and add">
 <h3>Bounce <span class="project-year">2026</span></h3>
 <p>A sketchpad for song demos in the browser: pick a key, build a chord progression, and loop it.</p>
 <p class="project-tech">React · TypeScript · Tone.js · Zustand · IndexedDB</p>
