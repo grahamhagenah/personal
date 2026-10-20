@@ -382,7 +382,7 @@ a.project img {
 a.link-button {
   display: inline-block;
   padding: 0.35rem 0.75rem !important;
-  border: 1px solid var(--lightgray) !important;
+  border: 1px solid var(--button-border) !important;
   border-radius: 6px !important;
   font-size: 0.9rem;
   color: var(--darkgray) !important;
@@ -391,7 +391,7 @@ a.link-button {
 }
 
 a.link-button:hover {
-  border-color: var(--gray) !important;
+  border-color: var(--darkgray) !important;
   color: var(--secondary) !important;
 }
 
@@ -668,14 +668,14 @@ header {
 .site-nav-links .nav-resume {
   margin-left: 0.5rem;
   padding: 0.2rem 0.7rem !important;
-  border: 1px solid var(--lightgray);
+  border: 1px solid var(--button-border);
   border-radius: 6px;
   font-size: 1rem !important;
   transition: border-color 0.15s, color 0.15s;
 }
 
 .site-nav-links .nav-resume:hover {
-  border-color: var(--gray);
+  border-color: var(--darkgray);
 }
 
 .site-nav-panel .panel-resume {
@@ -888,7 +888,7 @@ p.availability::before {
   width: 2.25rem;
   height: 2.25rem;
   padding: 0;
-  border: 1px solid var(--lightgray);
+  border: 1px solid var(--button-border);
   border-radius: 50%;
   background: none;
   color: var(--darkgray);
@@ -897,7 +897,7 @@ p.availability::before {
 }
 
 .filmstrip-controls button:hover:not(:disabled) {
-  border-color: var(--gray);
+  border-color: var(--darkgray);
   color: var(--secondary);
 }
 
@@ -1041,3 +1041,10 @@ ul.client-grid li::marker {
   }
 }
 
+
+// The outline on buttons (the page buttons, Resume in the header, the
+// filmstrip arrows): between the theme's light and mid greys, so it reads
+// clearly in both themes without getting heavy. It goes darker on hover.
+:root {
+  --button-border: color-mix(in srgb, var(--gray) 70%, var(--lightgray));
+}
