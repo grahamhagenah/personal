@@ -33,8 +33,8 @@ I hike, ride my bike, shoot film, read science fiction, and go to the movies, es
 <figcaption>With Philly on the Rose Kennedy Greenway, Boston.</figcaption>
 </figure>
 <figure>
-<img src="/photos/graham-hagenah-mount-hood.jpg" alt="Graham Hagenah in a sun hat with a backpack and camera, smiling on a rocky trail, with the snowy peak of Mount Hood behind him">
-<figcaption>On the Timberline Trail around Mount Hood, 2022.</figcaption>
+<img src="/photos/graham-hagenah-reintalangerhuette.jpg" alt="Graham Hagenah in a blue jacket and cap, sitting on the front steps of the Reintalangerhütte, a wooden mountain hut with green shutters, below sunlit limestone peaks">
+<figcaption>On the porch of the Reintalangerhütte, on Zugspitze, Germany.</figcaption>
 </figure>
 </div>
 <div class="photo-col">
@@ -43,8 +43,8 @@ I hike, ride my bike, shoot film, read science fiction, and go to the movies, es
 <figcaption>On my bike in Acadia National Park, Maine.</figcaption>
 </figure>
 <figure>
-<img src="/photos/graham-hagenah-reintalangerhuette.jpg" alt="Graham Hagenah in a blue jacket and cap, sitting on the front steps of the Reintalangerhütte, a wooden mountain hut with green shutters, below sunlit limestone peaks">
-<figcaption>On the porch of the Reintalangerhütte, on Zugspitze, Germany.</figcaption>
+<img src="/photos/graham-hagenah-mount-hood.jpg" alt="Graham Hagenah in a sun hat with a backpack and camera, smiling on a rocky trail, with the snowy peak of Mount Hood behind him">
+<figcaption>On the Timberline Trail around Mount Hood, 2022.</figcaption>
 </figure>
 </div>
 </div>
