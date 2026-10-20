@@ -49,7 +49,7 @@ I hike, ride my bike, shoot film, read science fiction, and go to the movies, es
 </figure>
 <figure>
 <img src="/photos/photo-by-graham-hagenah-malibu.jpg" alt="Photo by Graham Hagenah: a coastal highway in hazy golden light, telephone poles leading toward the ocean and layered hills">
-<figcaption>Pacific Coast Highway at Mulholland Highway, Malibu.</figcaption>
+<figcaption>Pacific Coast Highway, Malibu.</figcaption>
 </figure>
 <figure>
 <img src="/photos/graham-hagenah-mount-hood.jpg" alt="Graham Hagenah in a sun hat with a backpack and camera, smiling on a rocky trail, with the snowy peak of Mount Hood behind him">
