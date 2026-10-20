@@ -760,3 +760,10 @@ a.project img {
     transition: none;
   }
 }
+
+// A photo in a card (the Bartlett Interactive studio) keeps its own wide
+// shape instead of being cropped to the screenshots' 16:10.
+a.project img.photo {
+  aspect-ratio: auto;
+  height: auto;
+}
