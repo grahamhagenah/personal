@@ -15,6 +15,18 @@ In 2019 I joined Bartlett Interactive, a small agency in Concord, Massachusetts,
 
 While I still work for UC Santa Cruz, I've moved back to Massachusetts to be closer to friends and family, and I now live in Somerville.
 
+## How I work
+
+People usually come to me with a problem rather than a spec: a slow process, a repetitive task that eats someone's week, or an idea for something on the web that hasn't taken shape yet. I start by helping them pin down what they're actually trying to solve, then work through it with them. Sometimes the answer is an automation or an app running on AWS; sometimes it's a domain setup, an accessibility fix, or a design for a screen and the path someone takes through it. Sometimes it's simply an extra pair of hands to get a project over the line before a deadline.
+
+Whatever the work, the goal is the same: something that meets the organization's needs and is genuinely good to use.
+
+## What I'm looking for
+
+I do my best work on a team that designs, tests, ships and maintains its own tools: internal apps, client products, or open-source projects that meet real needs. I like working across both design and JavaScript, from shaping the experience and testing it with the people who'll use it to building it and keeping it running. Good software takes the tedious work off people's plates so they can focus on what they do best.
+
+I care about building things that last: tools that are maintained well, adapt as needs change, and keep working for years, especially when they serve the public.
+
 ## What I care about
 
 - **Accessibility from the start.** It's part of how a site is built, not a fix at the end. I've led accessibility work at two jobs and trained staff to keep their content accessible.
