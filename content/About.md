@@ -49,6 +49,31 @@ I hike, ride my bike, shoot film, read science fiction, and go to the movies, es
 </div>
 </div>
 
+<p class="photo-intro">A few photos I've taken:</p>
+
+<div class="photo-row">
+<div class="photo-col">
+<figure>
+<img src="/photos/photo-by-graham-hagenah-bryce.jpg" alt="Photo by Graham Hagenah: orange and white hoodoos, tall eroded rock spires, dusted with snow among a few pine trees">
+<figcaption>Hoodoos in the snow, Bryce Canyon, Utah.</figcaption>
+</figure>
+<figure>
+<img src="/photos/photo-by-graham-hagenah-zion.jpg" alt="Photo by Graham Hagenah: looking down from high above into a red rock canyon, a road curving along the cliffs beside a winding river">
+<figcaption>Looking down into Zion Canyon, Utah.</figcaption>
+</figure>
+</div>
+<div class="photo-col">
+<figure>
+<img src="/photos/photo-by-graham-hagenah-blue-jay.jpg" alt="Photo by Graham Hagenah: a blue jay perched on a branch among orange fall leaves">
+<figcaption>A blue jay in the fall.</figcaption>
+</figure>
+<figure>
+<img src="/photos/photo-by-graham-hagenah-malibu.jpg" alt="Photo by Graham Hagenah: a coastal highway in hazy golden light, telephone poles leading toward the ocean and layered hills">
+<figcaption>Pacific Coast Highway at Mulholland Highway, Malibu.</figcaption>
+</figure>
+</div>
+</div>
+
 ## Get in touch
 
 I'm open to roles across web development, design, and everything in between, in any city, ideally the Boston area. Email me at [gwhagenah@gmail.com](mailto:gwhagenah@gmail.com), see my code on [GitHub](https://github.com/grahamhagenah), or read my [[Work|work history]].

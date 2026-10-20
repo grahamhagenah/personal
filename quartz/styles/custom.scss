@@ -878,3 +878,10 @@ p.availability::before {
     margin-top: 0;
   }
 }
+
+// The line introducing the photos Graham took, set apart from the photos of
+// him above it.
+.photo-intro {
+  margin-top: 3rem !important;
+  margin-bottom: 0 !important;
+}
