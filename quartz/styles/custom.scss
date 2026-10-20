@@ -686,3 +686,9 @@ header {
 .page > #quartz-body .page-header {
   display: flow-root;
 }
+
+// The site's name in the header, bolder than the page links beside it (600:
+// the site loads Inter at 400, 600 and 700).
+.site-nav-name {
+  font-weight: 600 !important;
+}
