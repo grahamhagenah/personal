@@ -772,14 +772,13 @@ a.project img.photo {
   margin-bottom: 2rem !important;
 }
 
-// "Open to work" on the home page: a quiet box with a hairline border, a
-// small grey label with a still green dot, and the details under it.
+// "Open to work" on the home page: a small grey label with a still green
+// dot, and the details under it, lined up with the intro above.
 p.availability {
   display: block !important;
   margin: 1.75rem 0 !important;
-  padding: 0.8rem 1rem !important;
-  border: 1px solid var(--lightgray);
-  border-radius: 8px;
+  padding: 0 !important;
+  border: 0;
   font-size: 0.95rem !important;
   line-height: 1.5;
 }
