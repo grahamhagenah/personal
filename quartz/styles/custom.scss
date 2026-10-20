@@ -612,3 +612,77 @@ header {
     display: block;
   }
 }
+
+// The current page's link in the nav: in the body color with a green line
+// under it (a case study counts as Projects, the agency page as Work).
+.site-nav-links a[aria-current="page"] {
+  color: var(--dark) !important;
+  text-decoration: underline !important;
+  text-decoration-color: var(--secondary) !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 0.45em;
+}
+
+.site-nav-panel a[aria-current="page"] {
+  color: var(--secondary) !important;
+}
+
+// The résumé in the nav: a small outlined button, the same as the page
+// buttons, at the end of the links. In the phone's menu it's a fourth item,
+// set apart by a hairline.
+.site-nav-links .nav-resume {
+  margin-left: 0.5rem;
+  padding: 0.2rem 0.7rem !important;
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  font-size: 1rem !important;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.site-nav-links .nav-resume:hover {
+  border-color: var(--gray);
+}
+
+.site-nav-panel .panel-resume {
+  margin-top: 0.3rem;
+  border-top: 1px solid var(--lightgray);
+  border-radius: 0 0 6px 6px;
+}
+
+// The header sticks to the top of the window. It slides up out of the way
+// while you scroll down, and back when you scroll up (the script is in
+// local-plugins/nav-links); once the page has scrolled, a hairline sets it
+// apart from what's under it.
+.page > #quartz-body .page-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--light);
+  border-bottom: 1px solid transparent;
+  transition: transform 0.25s ease, border-color 0.2s;
+}
+
+.page > #quartz-body .page-header.scrolled {
+  border-bottom-color: var(--lightgray);
+}
+
+.page > #quartz-body .page-header.tucked {
+  transform: translateY(-100%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page > #quartz-body .page-header {
+    transition: none;
+  }
+}
+
+// The links line up with the résumé button between them and the toggle.
+.site-nav-links {
+  align-items: center;
+}
+
+// The header's own margin stays inside the sticky bar, so when it's stuck
+// there's room above the name instead of the bar hugging the window's edge.
+.page > #quartz-body .page-header {
+  display: flow-root;
+}
