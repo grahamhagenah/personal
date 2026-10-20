@@ -739,22 +739,22 @@ a.project img {
 }
 
 // The sticky header's background runs the full width of the window, not just
-// the content column, so nothing shows through in the gutters beside it. Two
-// shadows with a huge spread paint it: the background, and under it, showing
-// only as a 1px strip below the header once the page has scrolled, the
-// hairline. The clip keeps them to the header's height (plus that 1px), and
-// shadows don't make the page any wider.
+// the content column, so nothing shows through in the gutters beside it. It's
+// painted as a border image pushed out to either side, which (unlike a shadow
+// that has to be clipped) neither cuts off the phone menu hanging below the
+// header nor makes the page any wider. Once the page has scrolled, the image
+// gains a hairline along its bottom edge. Only the slide animates: a fading
+// background would show the old theme's colour after switching themes.
 .page > #quartz-body .page-header {
   border-bottom: 0 !important;
-  box-shadow: 0 0 0 100vmax var(--light), 0 1px 0 100vmax transparent;
-  clip-path: inset(0 -100vmax -1px);
-  // Only the slide animates: a fading shadow would show the old theme's colour
-  // in the gutters for a moment after switching between light and dark.
+  box-shadow: none;
+  clip-path: none;
+  border-image: linear-gradient(var(--light), var(--light)) fill 0 / / 0 100vmax;
   transition: transform 0.25s ease;
 }
 
 .page > #quartz-body .page-header.scrolled {
-  box-shadow: 0 0 0 100vmax var(--light), 0 1px 0 100vmax var(--lightgray);
+  border-image: linear-gradient(to bottom, var(--light) calc(100% - 1px), var(--lightgray) calc(100% - 1px)) fill 0 / / 0 100vmax;
 }
 
 @media (prefers-reduced-motion: reduce) {
