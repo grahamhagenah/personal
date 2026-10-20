@@ -30,4 +30,4 @@ I ride my bike, read science fiction, and go to the movies, especially at the ol
 
 I'm open to full-stack and front-end roles in any city, ideally the Boston area. Email me at [gwhagenah@gmail.com](mailto:gwhagenah@gmail.com), see my code on [GitHub](https://github.com/grahamhagenah), or read my [[Work|work history]].
 
-<a class="link-button" href="/graham-hagenah-resume.pdf" download>Download my résumé (PDF) ↓</a>
+<a class="link-button" href="/graham-hagenah-resume.pdf" download>Download my resume (PDF) ↓</a>

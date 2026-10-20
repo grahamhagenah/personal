@@ -77,8 +77,15 @@ p:has(+ h3) {
 // block. Needed with !important: below 800px, the theme has its own
 // same-property rule for `.sidebar.left` at equal-or-higher specificity.
 .page > #quartz-body .sidebar {
-  background-color: var(--light) !important;
+  background-color: transparent !important;
   border: none !important;
+}
+
+// The content column sits above the (empty) sidebars, so images that run
+// wider than the text aren't covered by them.
+.page > #quartz-body .center {
+  position: relative;
+  z-index: 1;
 }
 
 // Slightly narrow the overall site width. .page's max-width and the
@@ -126,6 +133,34 @@ p:has(+ h3) {
   .page > #quartz-body .sidebar {
     height: unset;
     position: initial;
+  }
+
+  // Stacked, the empty sidebars would each take up a row of padding (96px
+  // above the header on a tablet), so they're left out; the space above the
+  // header is set here instead.
+  .page > #quartz-body .sidebar {
+    display: none !important;
+  }
+
+  .page > #quartz-body .center {
+    padding-top: 1.5rem !important;
+  }
+
+  // The theme adds 6rem above the header at tablet widths.
+  .page > #quartz-body .page-header {
+    margin-top: 0 !important;
+  }
+
+  // On a tablet the content keeps the desktop's reading width, centered,
+  // instead of running the full width of the screen.
+  .page > #quartz-body .center,
+  .page > #quartz-body footer {
+    width: 100%;
+    min-width: 0 !important;
+    max-width: 630px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box;
   }
 }
 
@@ -691,4 +726,14 @@ header {
 // the site loads Inter at 400, 600 and 700).
 .site-nav-name {
   font-weight: 600 !important;
+}
+
+// Project and client images run wider than the text on large screens, up to
+// 760px, so the apps in them show their detail; the text keeps its narrower,
+// easier-to-read measure. On narrow screens they stay the column's width.
+a.project img {
+  --wide: max(100%, min(760px, 100vw - 4rem));
+  width: var(--wide) !important;
+  max-width: none !important;
+  margin-left: calc(50% - var(--wide) / 2) !important;
 }

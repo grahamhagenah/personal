@@ -4,7 +4,7 @@ socialImage: share/work.png
 ---
 I'm a full-stack developer who makes fast, accessible websites and applications. I focus on interface design and user experience, working mainly in React on a foundation of HTML, CSS, and JavaScript.
 
-<a class="link-button" href="/graham-hagenah-resume.pdf" download>Download my résumé (PDF) ↓</a>
+<a class="link-button" href="/graham-hagenah-resume.pdf" download>Download my resume (PDF) ↓</a>
 
 ## Experience
 

@@ -17,7 +17,7 @@ const SECTION = {
 
 const RESUME = "/graham-hagenah-resume.pdf"
 
-// The site's page links and the résumé. On a wide screen they sit in a row; on a narrow one they fold into a
+// The site's page links and the resume. On a wide screen they sit in a row; on a narrow one they fold into a
 // menu button that opens a small panel, so the header stays on one line. The menu is a <details> element, which
 // the browser makes keyboard- and screen-reader-friendly by itself. Styles are in quartz/styles/custom.scss.
 export const NavLinks = () => {
@@ -32,8 +32,8 @@ export const NavLinks = () => {
       pages.map(([slug, label]) =>
         h("a", { href: resolveRelative(fileData.slug, slug), "aria-current": current === slug ? "page" : undefined }, label),
       )
-    // Opens in the browser's own PDF viewer; the résumé buttons on the pages download it.
-    const resume = (cls) => h("a", { href: RESUME, class: cls, target: "_blank", rel: "noopener" }, "Résumé")
+    // Opens in the browser's own PDF viewer; the resume buttons on the pages download it.
+    const resume = (cls) => h("a", { href: RESUME, class: cls, target: "_blank", rel: "noopener" }, "Resume")
     return h(
       "nav",
       { class: "site-nav", "aria-label": "Site" },
