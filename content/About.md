@@ -13,16 +13,18 @@ I grew up in Western Massachusetts and studied Informatics at UMass Amherst, a p
 
 In 2019 I joined Bartlett Interactive, a small agency in Concord, Massachusetts, building websites for Boston-area nonprofits and public institutions. From there I moved in-house to The Predictive Index, a workplace analytics company, where I built their marketing site and a platform for their virtual conference. Since 2024 I've been at UC Santa Cruz.
 
+While I still work for UC Santa Cruz, I've moved back to Massachusetts to be closer to friends and family, and I now live in Somerville.
+
 ## What I care about
 
 - **Accessibility from the start.** It's part of how a site is built, not a fix at the end. I've led accessibility work at two jobs and trained staff to keep their content accessible.
 - **Speed.** Fast pages are easier for everyone to use, especially on a phone or a slow connection.
 - **Clear, plain interfaces.** The best interface is one people don't have to think about.
-- **Making things I use.** Most of my [[Projects|projects]] began as tools for myself: finding something to do in Boston, practising yoga at home, catching a song idea before it's gone.
+- **Making things I use.** Most of my [[Projects|projects]] began as tools for myself: finding something to do in Boston, planning a yoga flow, catching a song idea before it's gone.
 
 ## Outside work
 
-I ride my bike, read science fiction, and watch movies at the Coolidge Corner Theatre.
+I ride my bike, read science fiction, and go to the movies, especially at the old independent theaters around Boston.
 
 ## Get in touch
 

@@ -458,3 +458,9 @@ a[href^="mailto:"] .external-icon {
   line-height: 1.5;
   color: var(--gray) !important;
 }
+
+// No external-link icon after links in the text (GitHub, a project's own site
+// and so on): they read as plain links, like the site's own.
+article .external-icon {
+  display: none;
+}

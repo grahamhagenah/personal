@@ -6,7 +6,7 @@ Build a yoga flow one pose at a time, then play it as a class that's read aloud.
 
 ## The problem
 
-Practising yoga at home means either following someone else's video or remembering a sequence yourself. Writing your own flow is hard, because not every pose can follow every other: you can't step from a seated twist straight into Warrior III. I wanted to put a flow together the way a teacher does, move by move, and then have it led for me so I could keep my eyes off the screen.
+Planning a yoga flow is harder than it looks, because not every pose can follow every other: you can't step from a seated twist straight into Warrior III. I wanted a way to put a flow together the way a teacher does, move by move, check that it works, and hear it led aloud.
 
 ## What it does
 
