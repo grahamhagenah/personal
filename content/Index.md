@@ -2,7 +2,11 @@
 title: Graham Hagenah
 socialImage: share/index.png
 ---
+<h1 class="visually-hidden">Graham Hagenah</h1>
+
 I’m a full-stack web developer who builds fast, accessible websites and applications, from the interface in the browser to the APIs and databases behind it. I work mainly in React on a foundation of HTML, CSS, and JavaScript, and I’ve built WordPress sites for nonprofits, libraries and a university.
+
+<p class="availability">Based in Somerville, Massachusetts, and open to full-stack and front-end roles, remote or in the Boston area.</p>
 
 <a class="link-button" href="/work">See my work history →</a>
 

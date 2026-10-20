@@ -6,6 +6,8 @@ I'm a full-stack developer who makes fast, accessible websites and applications.
 
 <a class="link-button" href="/graham-hagenah-resume.pdf" download>Download my résumé (PDF) ↓</a>
 
+## Experience
+
 Jun 2024 – Present
 ### Applications Programmer, UC Santa Cruz
 

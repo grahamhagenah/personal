@@ -21,7 +21,9 @@
 :root {
   --dark: #0a0a0a !important;
   --darkgray: #1a1a1a !important;
-  --secondary: #059669 !important;
+  // One step darker than the #059669 first used: green links on the white
+  // page need 4.5:1 contrast, and this one has 5.5:1.
+  --secondary: #047857 !important;
 }
 
 :root[saved-theme="dark"] {
@@ -463,4 +465,67 @@ a[href^="mailto:"] .external-icon {
 // and so on): they read as plain links, like the site's own.
 article .external-icon {
   display: none;
+}
+
+// "Open to roles" on the home page: a small line with a green dot before it,
+// so it reads as a status rather than more of the intro.
+.availability {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  font-size: 0.95rem !important;
+}
+
+.availability::before {
+  content: "";
+  flex: none;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background: var(--secondary);
+  transform: translateY(-0.05rem);
+}
+
+// Accessibility fixes (from an axe audit, October 2026).
+
+// Text that's there for screen readers only: the home page's top-level heading.
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  margin: -1px !important;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+// A project card's title is level two where the cards come straight under the
+// page title (the Projects page): it looks the same as the level-three ones.
+a.project h2 {
+  margin: 0 !important;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+// Links inside running text are underlined, so they don't rely on colour
+// alone to stand out from the words around them.
+article p a:not(.link-button),
+article li a {
+  text-decoration: underline !important;
+  text-decoration-thickness: 1px !important;
+  text-underline-offset: 0.2em;
+}
+
+.projects-all a {
+  text-decoration: none !important;
+}
+
+// A visible ring for keyboard focus on every link and button.
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--secondary) !important;
+  outline-offset: 3px;
+  border-radius: 4px;
 }
