@@ -766,4 +766,8 @@ a.project img {
 a.project img.photo {
   aspect-ratio: auto;
   height: auto;
+  // Wide and short, so it gets more room above and below than the
+  // screenshots do.
+  margin-top: 2.5rem !important;
+  margin-bottom: 2rem !important;
 }
