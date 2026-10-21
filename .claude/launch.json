@@ -9,7 +9,7 @@
     {
       "name": "quartz",
       "runtimeExecutable": "node",
-      "runtimeArgs": ["quartz/bootstrap-cli.mjs", "build", "--serve"],
+      "runtimeArgs": ["quartz/bootstrap-cli.mjs", "build", "--serve", "--wsPort", "3002"],
       "port": 8080
     }
   ]
