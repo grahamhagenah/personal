@@ -33,10 +33,10 @@ Noteworthy projects I've built on my own time, from 2021 to 2026. Most are writt
 <p class="project-tech">Remix · Prisma · SQLite · Tailwind CSS · Fly.io</p>
 </a>
 <a class="link-button project-case" href="/stacks">Read the case study →</a>
-<a class="project" href="https://blackjack-graham.netlify.app/">
-<img src="/screenshots/blackjack.webp" width="1200" height="750" loading="lazy" decoding="async" alt="Retro Blackjack in plain gray and monospace type: an empty player's hand outlined in line art, above Hit, Stand and View Dealer buttons">
+<a class="project" href="https://blackjack.grahamhagenah.com/">
+<img class="mockup" src="/screenshots/blackjack.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="Retro Blackjack in a desktop browser window, in plain gray and monospace type: the player's hand, an ace, a seven and a two for 20, in a grid of card slots outlined in line art, above Hit, Stand, Double and View Dealer buttons, beside a drawing of the green handheld blackjack game that inspired it, its screen showing the same grid with a king and an eight for 18">
 <h2>Retro Blackjack <span class="project-year">2021</span></h2>
-<p>Blackjack against the dealer, drawn in plain line art, with sound effects you can turn off.</p>
+<p>Blackjack against the dealer, inspired by the classic electronic handheld: the card slots are drawn like the segments of its LCD screen.</p>
 <p class="project-tech">React · React Spring · Netlify</p>
 </a>
 <a class="link-button project-case" href="/retro-blackjack">Read the case study →</a>
