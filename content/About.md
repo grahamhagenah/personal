@@ -51,27 +51,27 @@ I hike, ride my bike, shoot film, read science fiction, and go to the movies, es
 
 <div class="filmstrip" id="photos" role="region" aria-label="Photos of Graham and photos he has taken" tabindex="0">
 <figure>
-<img src="/photos/graham-hagenah-boston-philly.jpg" alt="Graham Hagenah in a red jacket and cap, holding the leash of Philly, a black-and-white English setter sitting beside him, on the Rose Kennedy Greenway with Boston's Custom House tower behind them">
+<img src="/photos/graham-hagenah-boston-philly.jpg" width="680" height="680" alt="Graham Hagenah in a red jacket and cap, holding the leash of Philly, a black-and-white English setter sitting beside him, on the Rose Kennedy Greenway with Boston's Custom House tower behind them">
 <figcaption>With Philly on the Rose Kennedy Greenway, Boston.</figcaption>
 </figure>
 <figure>
-<img src="/photos/photo-by-graham-hagenah-bryce.jpg" alt="Photo by Graham Hagenah: orange and white hoodoos, tall eroded rock spires, dusted with snow among a few pine trees">
+<img src="/photos/photo-by-graham-hagenah-bryce.jpg" width="900" height="1125" alt="Photo by Graham Hagenah: orange and white hoodoos, tall eroded rock spires, dusted with snow among a few pine trees">
 <figcaption>Hoodoos in the snow, Bryce Canyon, Utah.</figcaption>
 </figure>
 <figure>
-<img src="/photos/graham-hagenah-acadia-bike.jpg" alt="Graham Hagenah in a bike helmet, standing with his silver road bike on a coastal road, a rocky beach and evergreen shoreline behind him under a blue sky">
-<figcaption>On my bike in Acadia National Park, Maine.</figcaption>
+<img src="/photos/graham-hagenah-battery-park-bike.jpg" width="800" height="800" alt="Graham Hagenah in a bike helmet, smiling and holding his silver road bike with its packed bags over his head at the railing in Battery Park, the harbor and the Statue of Liberty behind him under a cloudy blue sky">
+<figcaption>In Battery Park after biking the Empire State Trail.</figcaption>
 </figure>
 <figure>
-<img src="/photos/photo-by-graham-hagenah-malibu.jpg" alt="Photo by Graham Hagenah: a coastal highway in hazy golden light, telephone poles leading toward the ocean and layered hills">
+<img src="/photos/photo-by-graham-hagenah-malibu.jpg" width="900" height="596" alt="Photo by Graham Hagenah: a coastal highway in hazy golden light, telephone poles leading toward the ocean and layered hills">
 <figcaption>Pacific Coast Highway, Malibu.</figcaption>
 </figure>
 <figure>
-<img src="/photos/graham-hagenah-mount-hood.jpg" alt="Graham Hagenah in a sun hat with a backpack and camera, smiling on a rocky trail, with the snowy peak of Mount Hood behind him">
+<img src="/photos/graham-hagenah-mount-hood.jpg" width="800" height="813" alt="Graham Hagenah in a sun hat with a backpack and camera, smiling on a rocky trail, with the snowy peak of Mount Hood behind him">
 <figcaption>On the Timberline Trail around Mount Hood, 2022.</figcaption>
 </figure>
 <figure>
-<img src="/photos/photo-by-graham-hagenah-blue-jay.jpg" alt="Photo by Graham Hagenah: a blue jay perched on a branch among orange fall leaves">
+<img src="/photos/photo-by-graham-hagenah-blue-jay.jpg" width="900" height="720" alt="Photo by Graham Hagenah: a blue jay perched on a branch among orange fall leaves">
 <figcaption>A blue jay in the fall.</figcaption>
 </figure>
 </div>
