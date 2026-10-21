@@ -27,14 +27,14 @@ Noteworthy projects I've built on my own time, from 2021 to 2026. Most are writt
 </a>
 <a class="link-button project-case" href="/bounce">Read the case study →</a>
 <a class="project" href="https://bookstacks.site/">
-<img class="mockup" src="/screenshots/bookshelf.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="Stacks' demo library in dark mode in a desktop browser window: a banner saying you're in a demo, filters for books on the shelf, lent out, borrowed and loved, and a grid of book covers, beside a phone open to Piranesi by Susanna Clarke, lent to Sam Okafor and overdue by 5 days, with buttons to send a reminder, extend the loan or mark it returned">
+<img class="mockup" src="/screenshots/bookshelf.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="Stacks' demo library in dark mode in a desktop browser window: a banner saying you're in a demo, filters for books on the shelf, lent out, borrowed and loved, and a grid of book covers, the first row all lent out and loved, beside a phone open to Piranesi by Susanna Clarke, its cover next to its title and a Loved button, lent to Sam Okafor and overdue by 5 days, with buttons to send a reminder, extend the loan or mark it returned">
 <h2>Stacks <span class="project-year">2023</span></h2>
 <p>A lending library for your own books: catalog what you own, connect with friends, and lend and borrow.</p>
 <p class="project-tech">Remix · Prisma · SQLite · Tailwind CSS · Fly.io</p>
 </a>
 <a class="link-button project-case" href="/stacks">Read the case study →</a>
 <a class="project" href="https://blackjack.grahamhagenah.com/">
-<img class="mockup" src="/screenshots/blackjack.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="Retro Blackjack in a desktop browser window, in plain gray and monospace type: the player's hand, an ace, a seven and a two for 20, in a grid of card slots outlined in line art, above Hit, Stand, Double and View Dealer buttons, beside a drawing of the green handheld blackjack game that inspired it, its screen showing the same grid with a king and an eight for 18">
+<img class="mockup" src="/screenshots/blackjack.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="Retro Blackjack in dark mode in a desktop browser window, in monospace type on dark gray: the player's hand, a five, a ten and a two for 17, in a grid of card slots outlined in line art, above Hit, Stand, Double and View Dealer buttons, beside a drawing of the green handheld blackjack game that inspired it, its screen showing the same grid with a king and an eight for 18">
 <h2>Retro Blackjack <span class="project-year">2021</span></h2>
 <p>Blackjack against the dealer, inspired by the classic electronic handheld: the card slots are drawn like the segments of its LCD screen.</p>
 <p class="project-tech">React · React Spring · Netlify</p>
