@@ -112,9 +112,11 @@ export const NavLinks = () => {
             next.disabled = strip.scrollLeft + strip.clientWidth > strip.scrollWidth - 4
           }
           strip.addEventListener("scroll", ends, { passive: true })
-          // It starts at its middle, so it reads as balanced rather than running off to the right, and stays centred
-          // as photos load until someone moves it themselves.
-          let touched = false
+          // With a mouse it starts at its middle, so it reads as balanced rather than running off to the right, and
+          // stays centred as photos load until someone moves it themselves. On a touch screen it starts at the first
+          // photo, lined up with the text, ready to swipe.
+          const startCentred = matchMedia("(hover: hover) and (pointer: fine)").matches
+          let touched = !startCentred
           for (const ev of ["pointerdown", "wheel", "touchstart", "keydown"]) {
             strip.addEventListener(ev, () => { touched = true }, { passive: true })
           }

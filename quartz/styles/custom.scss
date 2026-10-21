@@ -845,22 +845,25 @@ p.availability::before {
   outline-offset: 4px;
 }
 
+// The figure is as wide as its photo (min-content: the caption can't widen
+// it past its longest word), so the caption wraps under the photo. A table
+// with a table-caption did the same in Chrome, but Safari sized the table to
+// the caption's full one-line width, leaving wide gaps between photos.
 .filmstrip figure {
-  display: table;
   flex: none;
+  width: min-content;
   margin: 0;
 }
 
 .filmstrip img {
   display: block;
   width: auto;
+  max-width: none; // A percentage max-width counts as zero inside the min-content figure.
   height: 300px;
   margin: 0 !important;
 }
 
 .filmstrip figcaption {
-  display: table-caption;
-  caption-side: bottom;
   padding-top: 0.5rem;
   font-size: 0.85rem;
   line-height: 1.45;
@@ -922,8 +925,6 @@ p.availability::before {
   -webkit-line-clamp: 2;
   line-clamp: 2;
   overflow: hidden;
-  width: 0;
-  min-width: 100%;
 }
 
 .filmstrip::-webkit-scrollbar {
@@ -932,7 +933,8 @@ p.availability::before {
 
 // Images given their real width and height in the markup (so the page
 // doesn't jump as they load) still scale with the column.
-article img[width][height] {
+// (Kept light with :where() so a filmstrip's fixed photo height still wins.)
+article :where(img[width][height]) {
   height: auto;
 }
 
