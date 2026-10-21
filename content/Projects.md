@@ -27,7 +27,7 @@ Noteworthy projects I've built on my own time, from 2021 to 2026. Most are writt
 </a>
 <a class="link-button project-case" href="/bounce">Read the case study →</a>
 <a class="project" href="https://bookstacks.site/">
-<img src="/screenshots/bookshelf.webp" width="1200" height="750" loading="lazy" decoding="async" alt="Stacks' welcome page: its book-spine logo, the line Your personal lending library, and a button to create an account">
+<img class="mockup" src="/screenshots/bookshelf.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="Stacks' demo library in dark mode in a desktop browser window: a banner saying you're in a demo, filters for books on the shelf, lent out, borrowed and loved, and a grid of book covers, beside a phone open to Piranesi by Susanna Clarke, lent to Sam Okafor and overdue by 5 days, with buttons to send a reminder, extend the loan or mark it returned">
 <h2>Stacks <span class="project-year">2023</span></h2>
 <p>A lending library for your own books: catalog what you own, connect with friends, and lend and borrow.</p>
 <p class="project-tech">Remix · Prisma · SQLite · Tailwind CSS · Fly.io</p>
