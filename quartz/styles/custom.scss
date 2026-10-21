@@ -684,31 +684,19 @@ header {
   border-radius: 0 0 6px 6px;
 }
 
-// The header sticks to the top of the window. It slides up out of the way
-// while you scroll down, and back when you scroll up (the script is in
-// local-plugins/nav-links); once the page has scrolled, a hairline sets it
-// apart from what's under it.
+// The header sticks to the top of the window; once the page has scrolled, a
+// hairline sets it apart from what's under it (the script is in
+// local-plugins/nav-links).
 .page > #quartz-body .page-header {
   position: sticky;
   top: 0;
   z-index: 20;
   background: var(--light);
   border-bottom: 1px solid transparent;
-  transition: transform 0.25s ease, border-color 0.2s;
 }
 
 .page > #quartz-body .page-header.scrolled {
   border-bottom-color: var(--lightgray);
-}
-
-.page > #quartz-body .page-header.tucked {
-  transform: translateY(-100%);
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .page > #quartz-body .page-header {
-    transition: none;
-  }
 }
 
 // The links line up with the résumé button between them and the toggle.
@@ -743,23 +731,39 @@ a.project img {
 // painted as a border image pushed out to either side, which (unlike a shadow
 // that has to be clipped) neither cuts off the phone menu hanging below the
 // header nor makes the page any wider. Once the page has scrolled, the image
-// gains a hairline along its bottom edge. Only the slide animates: a fading
+// gains a hairline along its bottom edge. Nothing animates: a fading
 // background would show the old theme's colour after switching themes.
 .page > #quartz-body .page-header {
   border-bottom: 0 !important;
   box-shadow: none;
   clip-path: none;
   border-image: linear-gradient(var(--light), var(--light)) fill 0 / / 0 100vmax;
-  transition: transform 0.25s ease;
+  transition: none;
 }
 
 .page > #quartz-body .page-header.scrolled {
   border-image: linear-gradient(to bottom, var(--light) calc(100% - 1px), var(--lightgray) calc(100% - 1px)) fill 0 / / 0 100vmax;
 }
 
-@media (prefers-reduced-motion: reduce) {
+// Below 1200px the header sits in the narrow centred column, and Safari on
+// iPhone and iPad only takes a sticky bar's colour for the strip behind the
+// status bar when the bar itself spans the screen; otherwise the page shows
+// through there, above the header. So here the bar's own box runs edge to edge
+// (pulled out past the column, with its content padded back in) and paints a
+// plain background, with the hairline as an inset shadow.
+@media (max-width: 1200px) {
   .page > #quartz-body .page-header {
-    transition: none;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    padding-left: calc(50vw - 50%);
+    padding-right: calc(50vw - 50%);
+    border-image-source: none;
+    background-color: var(--light);
+  }
+
+  .page > #quartz-body .page-header.scrolled {
+    border-image-source: none;
+    box-shadow: inset 0 -1px 0 var(--lightgray);
   }
 }
 

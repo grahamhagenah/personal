@@ -74,22 +74,13 @@ export const NavLinks = () => {
         if (e.key === "Escape" && m && m.open) { close(); m.querySelector("summary").focus() }
       })
 
-      // The header sticks to the top: it slides away while you scroll down to read, and comes back as soon as you
-      // scroll up. It stays put while its menu is open or something in it has keyboard focus.
-      let lastY = window.scrollY
+      // The header sticks to the top; once the page has scrolled, it gains a hairline along its bottom edge.
       const update = () => {
         const bar = document.querySelector(".page-header")
-        if (!bar) return
-        const y = Math.max(window.scrollY, 0)
-        const busy = (menu() && menu().open) || bar.contains(document.activeElement)
-        bar.classList.toggle("scrolled", y > 8)
-        if (y < 80 || busy || y < lastY - 2) bar.classList.remove("tucked")
-        else if (y > lastY + 2) bar.classList.add("tucked")
-        lastY = y
+        if (bar) bar.classList.toggle("scrolled", window.scrollY > 8)
       }
       window.addEventListener("scroll", update, { passive: true })
-      document.addEventListener("focusin", update)
-      document.addEventListener("nav", () => { lastY = 0; update() })
+      document.addEventListener("nav", update)
 
       // Filmstrips: a pair of arrow buttons above each, which page it along by most of its width and grey out
       // at either end. (Pages are swapped in place, so they're added again after each move around the site.)
