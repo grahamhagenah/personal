@@ -13,7 +13,7 @@ Friends lend each other books all the time, and lose track of them just as often
 You add books by searching the Open Library catalog, and they appear on your shelf with their covers. Friends can browse your shelf, request a book, and get an email when you approve it. Stacks records who has each book, when it's due back, and its lending history. A public link lets anyone browse your shelf without an account.
 
 <figure class="case-figure">
-<img src="/screenshots/case-studies/stacks-home.webp" width="1400" height="875" loading="lazy" decoding="async" alt="Stacks' home page in dark mode: a Coming up line noting Piranesi is 5 days overdue with Sam Okafor and another book is due back in 2 days, then Loans in two columns, four books borrowed and five lent out, each with its cover, who has it and when it's due, and a Friend activity feed beside them, with Maya Chen's note on Circe and friends adding new books">
+<img src="/screenshots/case-studies/stacks-home.webp" width="1400" height="875" loading="lazy" decoding="async" alt="Stacks' home page in dark mode: Coming up, with calendar badges marking Piranesi 5 days late with Sam Okafor and Jonathan Strange & Mr Norrell due back to Priya Patel in 2 days, then Loans in two columns, four books borrowed from friends and five lent to them, each with its cover, who it's from or to and when it's due, and a Friend activity feed beside them, with Maya Chen's note on Circe and friends adding new books">
 <figcaption>Home: what's due back soon, every loan in both directions, and what friends are reading and adding.</figcaption>
 </figure>
 
