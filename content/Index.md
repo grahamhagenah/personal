@@ -36,6 +36,13 @@ Noteworthy projects I've built on my own time, from 2021 to 2026. Most are writt
 <p class="project-tech">React · TypeScript · Tone.js · Zustand · IndexedDB</p>
 </a>
 <a class="link-button project-case" href="/bounce">Read the case study →</a>
+<a class="project" href="https://bookstacks.site/">
+<img class="mockup" src="/screenshots/bookshelf.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="Stacks' demo library in dark mode in a desktop browser window: a banner saying you're in a demo, filters for books on the shelf, lent out, borrowed and loved, and a grid of book covers, the first row all lent out and loved, beside a phone open to Piranesi by Susanna Clarke, its cover next to its title and a Loved button, lent to Sam Okafor and overdue by 5 days, with buttons to send a reminder, extend the loan or mark it returned">
+<h3>Stacks <span class="project-year">2023</span></h3>
+<p>A lending library for your own books: catalog what you own, connect with friends, and lend and borrow.</p>
+<p class="project-tech">Remix · Prisma · SQLite · Tailwind CSS · Fly.io</p>
+</a>
+<a class="link-button project-case" href="/stacks">Read the case study →</a>
 </div>
 
 <p class="projects-all"><a href="/projects">View all projects →</a></p>
