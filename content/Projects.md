@@ -27,7 +27,7 @@ Noteworthy projects I've built on my own time, from 2021 to 2026. Most are writt
 </a>
 <a class="link-button project-case" href="/bounce">Read the case study →</a>
 <a class="project" href="https://bookstacks.site/">
-<img class="mockup" src="/screenshots/bookshelf.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="Stacks' demo library in dark mode in a desktop browser window: a banner saying you're in a demo, filters for books on the shelf, lent out, borrowed and loved, and a grid of book covers, the first row all lent out and loved, beside a phone open to Piranesi by Susanna Clarke, its cover next to its title and a Loved button, lent to Sam Okafor and overdue by 5 days, with buttons to send a reminder, extend the loan or mark it returned">
+<img class="mockup" src="/screenshots/bookshelf.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="Stacks' home page in dark mode in a desktop browser window: rows of recently added books and books to read next, noting which friend has each, the start of the loans list, and a Friend activity column of notes on Circe, The Overstory and The Poppy War, beside a phone open to Piranesi by Susanna Clarke, lent to Sam, loved, with Priya waiting for it next">
 <h2>Stacks <span class="project-year">2023</span></h2>
 <p>A lending library for your own books: catalog what you own, connect with friends, and lend and borrow.</p>
 <p class="project-tech">Remix · Prisma · SQLite · Tailwind CSS · Fly.io</p>
