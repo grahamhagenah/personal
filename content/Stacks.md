@@ -2,7 +2,7 @@
 title: Stacks
 socialImage: share/stacks.png
 ---
-A lending library for the books you and your friends own: see who has what, borrow and lend, and keep track of where every copy has gone. [Try the demo](https://bookstacks.site/demo) · [Open Stacks](https://bookstacks.site/) · [Source on GitHub](https://github.com/grahamhagenah/bookshelf)
+A lending library for the books you and your friends own: see who has what, borrow and lend, and keep track of where every copy has gone. [Try the demo](https://bookstacks.app/demo) · [Open Stacks](https://bookstacks.app/) · [Source on GitHub](https://github.com/grahamhagenah/bookshelf)
 
 **My role:** sole designer and developer, from the data model to the emails. **Built:** 2023, rebuilt and extended in 2026. **Stack:** Remix, React, TypeScript, Prisma, SQLite, Tailwind CSS, Fly.io.
 

@@ -15,7 +15,7 @@ I’m a full-stack web developer and designer with seven years of experience bui
 Noteworthy projects I've built on my own time, from 2021 to 2026. Most are written in React and TypeScript, with Remix for full-stack apps, Python for gathering data, browser APIs for sound and speech, and GitHub Actions and Pages to build and host them.
 
 <div class="projects">
-<a class="project" href="https://bookstacks.site/">
+<a class="project" href="https://bookstacks.app/">
 <img class="mockup" src="/screenshots/bookshelf.webp" width="1600" height="1000" decoding="async" alt="Stacks' home page in dark mode in a desktop browser window: rows of recently added books and books to read next, noting which friend has each, the start of the loans list, and a Friend activity column of notes on Circe, The Overstory and The Poppy War, beside a phone open to Piranesi by Susanna Clarke, lent to Sam, loved, with Priya waiting for it next">
 <h3>Stacks <span class="project-year">2023–2026</span></h3>
 <p>A lending library for your own books: catalog what you own, connect with friends, and lend and borrow.</p>
