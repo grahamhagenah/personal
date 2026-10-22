@@ -15,20 +15,20 @@ I’m a full-stack web developer and designer with seven years of experience bui
 Noteworthy projects I've built on my own time, from 2021 to 2026. Most are written in React and TypeScript, with Remix for full-stack apps, Python for gathering data, browser APIs for sound and speech, and GitHub Actions and Pages to build and host them.
 
 <div class="projects">
+<a class="project" href="https://bookstacks.site/">
+<img class="mockup" src="/screenshots/bookshelf.webp" width="1600" height="1000" decoding="async" alt="Stacks' home page in dark mode in a desktop browser window: rows of recently added books and books to read next, noting which friend has each, the start of the loans list, and a Friend activity column of notes on Circe, The Overstory and The Poppy War, beside a phone open to Piranesi by Susanna Clarke, lent to Sam, loved, with Priya waiting for it next">
+<h3>Stacks <span class="project-year">2023–2026</span></h3>
+<p>A lending library for your own books: catalog what you own, connect with friends, and lend and borrow.</p>
+<p class="project-tech">Remix · Prisma · SQLite · Tailwind CSS · Fly.io</p>
+</a>
+<a class="link-button project-case" href="/stacks">Read the case study →</a>
 <a class="project" href="https://pushpin.city/boston/">
-<img class="mockup" src="/screenshots/pushpin.webp" width="1600" height="1000" decoding="async" alt="Pushpin Boston in a desktop browser window, listing today's films, concerts and talks with their times and venues, beside a phone showing one film, You Can See Everything, open with a still from it and its showtimes at four theaters">
+<img class="mockup" src="/screenshots/pushpin.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="Pushpin Boston in a desktop browser window, listing today's films, concerts and talks with their times and venues, beside a phone showing one film, You Can See Everything, open with a still from it and its showtimes at five theaters">
 <h3>Pushpin <span class="project-year">2026</span></h3>
 <p>Concerts, films and talks around Boston, the Bay Area and Western Mass, gathered from venues' own listings. I'm its developer and maintainer.</p>
 <p class="project-tech">Python · GitHub Actions · GitHub Pages</p>
 </a>
 <a class="link-button project-case" href="/pushpin">Read the case study →</a>
-<a class="project" href="https://yoga.grahamhagenah.com/">
-<img class="mockup" src="/screenshots/yoga.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="Flow Sequencer on a phone, showing one pose at a time: Easy Seat, drawn large, with its cue and 5 breaths above the player, beside the home page in a desktop browser window with a ready-made flow to try">
-<h3>Flow Sequencer <span class="project-year">2026</span></h3>
-<p>Build a yoga flow one pose at a time, or play one of the ready-made flows.</p>
-<p class="project-tech">React · TypeScript · Vite · Web Speech API</p>
-</a>
-<a class="link-button project-case" href="/flow-sequencer">Read the case study →</a>
 <a class="project" href="https://bounce.grahamhagenah.com/">
 <img class="mockup" src="/screenshots/bounce.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="Bounce in a desktop browser window, its song sections laid out as rows of chord blocks, beside a phone open to the verse: its chords and drums on a timeline, and below them the chords of G minor to tap and add">
 <h3>Bounce <span class="project-year">2026</span></h3>
@@ -36,13 +36,13 @@ Noteworthy projects I've built on my own time, from 2021 to 2026. Most are writt
 <p class="project-tech">React · TypeScript · Tone.js · Zustand · IndexedDB</p>
 </a>
 <a class="link-button project-case" href="/bounce">Read the case study →</a>
-<a class="project" href="https://bookstacks.site/">
-<img class="mockup" src="/screenshots/bookshelf.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="Stacks' home page in dark mode in a desktop browser window: rows of recently added books and books to read next, noting which friend has each, the start of the loans list, and a Friend activity column of notes on Circe, The Overstory and The Poppy War, beside a phone open to Piranesi by Susanna Clarke, lent to Sam, loved, with Priya waiting for it next">
-<h3>Stacks <span class="project-year">2023</span></h3>
-<p>A lending library for your own books: catalog what you own, connect with friends, and lend and borrow.</p>
-<p class="project-tech">Remix · Prisma · SQLite · Tailwind CSS · Fly.io</p>
+<a class="project" href="https://yoga.grahamhagenah.com/">
+<img class="mockup" src="/screenshots/yoga.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="Flow Sequencer's home page in a desktop browser window, with a ready-made flow to try, beside a phone showing one pose at a time: Mountain, drawn large, with its cue and 5 breaths above the player">
+<h3>Flow Sequencer <span class="project-year">2026</span></h3>
+<p>Build a yoga flow one pose at a time, or play one of the ready-made flows.</p>
+<p class="project-tech">React · TypeScript · Vite · Web Speech API</p>
 </a>
-<a class="link-button project-case" href="/stacks">Read the case study →</a>
+<a class="link-button project-case" href="/flow-sequencer">Read the case study →</a>
 </div>
 
 <p class="projects-all"><a href="/projects">View all projects →</a></p>
