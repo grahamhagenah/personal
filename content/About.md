@@ -2,16 +2,16 @@
 title: About Graham
 socialImage: share/about.png
 ---
-I'm a full-stack web developer and an Applications Programmer at UC Santa Cruz, where I design, build and maintain websites and web applications for departments across campus, keeping them current with accessibility standards as requirements evolve.
+I'm a full-stack web developer and Applications Programmer at UC Santa Cruz, where I design, build and maintain accessible websites and web apps for departments across campus.
 
 <p><img src="/profile-photo.webp" width="960" height="636" fetchpriority="high" decoding="async" alt="Graham at sunset at the Getty Center art museum in Los Angeles, holding a film camera on a yellow strap, in front of a stone wall and red flowering bushes, with the city skyline in the distance"></p>
-<p class="photo-caption">Sunset at the Getty Center in Los Angeles, fall 2022: red flowers in bloom along the stone terraces, the city fading into the haze below, and my Nikon FE2 around my neck.</p>
+<p class="photo-caption">Sunset at the Getty Center, Los Angeles, fall 2022, with my Nikon FE2.</p>
 
 ## How I got here
 
-I grew up in Western Massachusetts and studied Informatics at UMass Amherst, a program that combines art and computer science. That mix stuck with me: I care as much about how something looks and feels as about how it works.
+I grew up in Western Massachusetts and studied Informatics, a mix of art and computer science, at UMass Amherst. I still care as much about how something looks and feels as about how it works.
 
-In 2019 I joined Bartlett Interactive, a small agency in Concord, Massachusetts, building websites for Boston-area nonprofits and public institutions. From there I moved in-house to The Predictive Index, a workplace analytics company, where I built their marketing site and a platform for their virtual conference. Since 2024 I've been at UC Santa Cruz.
+I started in 2019 at Bartlett Interactive, a Concord agency building sites for Boston-area nonprofits and public institutions, then moved in-house to The Predictive Index, a workplace analytics company, to build its marketing site and a virtual conference platform. I joined UC Santa Cruz in 2024.
 
 <div class="photo-trio">
 <figure>
@@ -28,26 +28,26 @@ In 2019 I joined Bartlett Interactive, a small agency in Concord, Massachusetts,
 </figure>
 </div>
 
-While I still work for UC Santa Cruz, I've moved back to Massachusetts to be closer to friends and family, and I now live in Somerville.
+I still work for UC Santa Cruz, now from Somerville, closer to friends and family.
 
 ## How I work
 
-People usually come to me with a problem rather than a spec: a slow process, a repetitive task, or a half-formed idea for something on the web. I help pin down what they're really trying to solve, then work through it with them, whether the answer is an automation, an app on AWS, an accessibility fix, a design, or an extra hand before a deadline. The goal is always something that meets the organization's needs and is good to use.
+People usually bring me a problem, not a spec: a slow process, a repetitive task, a half-formed idea. I help pin down what they're really solving, then build it with them, whether that's an automation, an app on AWS, an accessibility fix, a design, or an extra hand before a deadline.
 
 ## What I'm looking for
 
-I want to work on a team that designs, tests, ships and maintains its own tools, internal apps or open-source projects that meet real needs, so the people around me can focus on their own work. I like doing both the design and the JavaScript, testing with real users, and building things that last for years, especially when they serve the public.
+A team that designs, tests, ships and maintains its own tools, internal apps or open-source projects. I like owning both the design and the JavaScript, testing with real users, and building things that last, especially for the public.
 
 ## What I care about
 
-- **Accessibility from the start.** It's part of how a site is built, not a fix at the end. I've led accessibility work at two jobs and trained staff to keep their content accessible.
-- **Speed.** Fast pages are easier for everyone to use, especially on a phone or a slow connection.
-- **Clear, plain interfaces.** The best interface is one people don't have to think about.
-- **Making things I use.** Most of my [[Projects|projects]] began as tools for myself: finding something to do in Boston, planning a yoga flow, catching a song idea before it's gone.
+- **Accessibility from the start.** Built in, not fixed at the end. I've led accessibility work at two jobs and trained staff to keep content accessible.
+- **Speed.** Fast pages work for everyone, especially on a phone.
+- **Plain interfaces.** The best ones don't make you think.
+- **Making things I use.** Most of my [[Projects|projects]] began as tools for myself.
 
 ## Outside work
 
-I hike, ride my bike, shoot film, read science fiction, and go to the movies, especially at the old independent theaters around Boston. I also have an English setter named Philly.
+I hike, bike, shoot film, read science fiction, and go to Boston's old independent movie theaters. I also have an English setter named Philly.
 
 <div class="filmstrip" id="photos" role="region" aria-label="Photos of Graham and photos he has taken" tabindex="0">
 <figure>
@@ -78,6 +78,6 @@ I hike, ride my bike, shoot film, read science fiction, and go to the movies, es
 
 ## Get in touch
 
-I'm open to roles across web development, design, and everything in between, in any city, ideally the Boston area. Email me at [gwhagenah@gmail.com](mailto:gwhagenah@gmail.com), see my code on [GitHub](https://github.com/grahamhagenah), or read my [[Work|work history]].
+I'm open to roles across web development and design, anywhere, ideally Boston. Email me at [gwhagenah@gmail.com](mailto:gwhagenah@gmail.com), see my code on [GitHub](https://github.com/grahamhagenah), or read my [[Work|work history]].
 
 <a class="link-button" href="/graham-hagenah-resume.pdf" download>Download my resume (PDF) ↓</a>
