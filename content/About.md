@@ -4,7 +4,7 @@ socialImage: share/about.png
 ---
 I'm a full-stack web developer and an Applications Programmer at UC Santa Cruz, where I design, build and maintain websites and web applications for departments across campus, keeping them current with accessibility standards as requirements evolve.
 
-![[profile-photo.jpg|Graham at sunset at the Getty Center art museum in Los Angeles, holding a film camera on a yellow strap, in front of a stone wall and red flowering bushes, with the city skyline in the distance]]
+<p><img src="/profile-photo.webp" width="960" height="636" fetchpriority="high" decoding="async" alt="Graham at sunset at the Getty Center art museum in Los Angeles, holding a film camera on a yellow strap, in front of a stone wall and red flowering bushes, with the city skyline in the distance"></p>
 <p class="photo-caption">Sunset at the Getty Center in Los Angeles, fall 2022: red flowers in bloom along the stone terraces, the city fading into the haze below, and my Nikon FE2 around my neck.</p>
 
 ## How I got here
