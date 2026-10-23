@@ -6,6 +6,11 @@ A lending library for the books you and your friends own: see who has what, borr
 
 **My role:** sole designer and developer, from the data model to the emails. **Built:** 2023, rebuilt and extended in 2026. **Stack:** Remix, React, TypeScript, Prisma, SQLite, Tailwind CSS, Fly.io.
 
+<figure class="case-figure">
+<img src="/screenshots/case-studies/stacks-landing.webp" width="1400" height="875" decoding="async" alt="Stacks' landing page: the headline Your books. Our shelf., a line about cataloging your home library, borrowing from friends' shelves and lending with reminders, buttons to create an account or sign in, and a link to a demo library, beside a collage of a due-soon card, covers tagged Lent out and Borrowed, a control to lend Dune to Sam for 4 weeks, and a Reminder sent to Priya notice">
+<figcaption>The landing page: what Stacks is for in one line, with sign-up and the demo a click away.</figcaption>
+</figure>
+
 ## The problem
 
 Friends lend each other books all the time, and lose track of them just as often. Nobody remembers who has what, and there's no easy way to see what's on a friend's shelf before asking. Reading apps like Goodreads track what you've read, not the physical copies or who's holding them.
