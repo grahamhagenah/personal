@@ -706,8 +706,16 @@ header {
 
 // The header's own margin stays inside the sticky bar, so when it's stuck
 // there's room above the name instead of the bar hugging the window's edge.
+// On a phone, where the 44px menu button sets the row's height, that margin
+// is halved so the bar stays slim (60px, the same as on wider screens).
 .page > #quartz-body .page-header {
   display: flow-root;
+}
+
+@media (max-width: 560px) {
+  .page > #quartz-body .page-header > header {
+    margin: 0.5rem 0;
+  }
 }
 
 // The site's name in the header, bolder than the page links beside it (600:
