@@ -6,7 +6,7 @@ socialImage: share/index.png
 
 I’m a full-stack web developer and designer with seven years of experience building fast, accessible websites and applications, from the interface people see to the APIs and databases behind them. I work mainly in React and TypeScript, and in WordPress when a client needs a content management system.
 
-<p class="availability"><span class="availability-label">Open to work</span>Based in Somerville, MA, and open to roles across web development, design, and everything in between, in any city, ideally the Boston area.</p>
+<p class="availability"><span class="availability-label">Open to work</span>Based in Somerville, MA, and looking for web development and design roles in Boston or beyond.</p>
 
 <a class="link-button" href="/work">See my work history →</a>
 

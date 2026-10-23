@@ -78,6 +78,6 @@ I hike, bike, shoot film, read science fiction, and go to Boston's old independe
 
 ## Get in touch
 
-I'm open to roles across web development and design, anywhere, ideally Boston. Email me at [gwhagenah@gmail.com](mailto:gwhagenah@gmail.com), see my code on [GitHub](https://github.com/grahamhagenah), or read my [[Work|work history]].
+I'm looking for web development and design roles in Boston or beyond. Email me at [gwhagenah@gmail.com](mailto:gwhagenah@gmail.com), see my code on [GitHub](https://github.com/grahamhagenah), or read my [[Work|work history]].
 
 <a class="link-button" href="/graham-hagenah-resume.pdf" download>Download my resume (PDF) ↓</a>
