@@ -725,10 +725,10 @@ header {
 }
 
 // Project and client images run wider than the text on large screens, up to
-// 760px, so the apps in them show their detail; the text keeps its narrower,
+// 960px, so the apps in them show their detail; the text keeps its narrower,
 // easier-to-read measure. On narrow screens they stay the column's width.
 a.project img {
-  --wide: max(100%, min(760px, 100vw - 4rem));
+  --wide: max(100%, min(960px, 100vw - 4rem));
   width: var(--wide) !important;
   max-width: none !important;
   margin-left: calc(50% - var(--wide) / 2) !important;
@@ -1063,10 +1063,19 @@ ul.client-grid li::marker {
   --button-border: color-mix(in srgb, var(--gray) 70%, var(--lightgray));
 }
 
-// A screenshot in a case study, next to the section it illustrates: as wide
-// as the text, with a hairline border and a small caption under it.
+// A screenshot in a case study, next to the section it illustrates, with a
+// hairline border and a small caption under it. Like the project images, a
+// desktop screenshot runs wider than the text on large screens, up to 960px;
+// the caption keeps the text's measure.
 figure.case-figure {
   margin: 1.75rem 0 2rem;
+}
+
+figure.case-figure:not(.case-figure-phone) img {
+  --wide: max(100%, min(960px, 100vw - 4rem));
+  width: var(--wide) !important;
+  max-width: none !important;
+  margin-left: calc(50% - var(--wide) / 2) !important;
 }
 
 figure.case-figure img {
