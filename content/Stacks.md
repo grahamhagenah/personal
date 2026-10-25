@@ -25,8 +25,8 @@ Friends lend each other books all the time, and lose track of them just as often
 - **Reminders that matter.** Notifications before and after a book is due, an email for each borrow request, and a weekly email of what friends did and what's due back.
 
 <figure class="case-figure">
-<img src="/screenshots/case-studies/stacks-home.webp" width="1400" height="875" loading="lazy" decoding="async" alt="Stacks' home page: a row of recently added books, a want-to-read row noting which friend has each one, the start of the loans list, and a Friend activity column of notes about Circe, The Overstory and The Poppy War, each with a heart and the book's cover">
-<figcaption>Home: what's new on your shelf, books you want that a friend already has, your loans, and what friends are saying.</figcaption>
+<img src="/screenshots/case-studies/stacks-home.webp" width="1400" height="875" loading="lazy" decoding="async" alt="Stacks' home page: loans in two columns, four books borrowed from friends and six lent out, each with its cover, who it's from or to and when it's due, with Piranesi 5 days late, then a want-to-read row, beside a Friend activity column of notes about Circe, The Overstory and The Poppy War, each with a heart and the book's cover">
+<figcaption>Home: your loans in both directions first, then books you want that a friend already has, with what friends are saying beside them.</figcaption>
 </figure>
 
 ## Constraints I set
@@ -39,13 +39,13 @@ Friends lend each other books all the time, and lose track of them just as often
 
 **A demo you can actually use.** "Try the demo" builds a private sandbox for each visitor: a stocked library, friends with their own shelves, loans in both directions (one overdue), and requests waiting to be answered. Demo friends approve requests at once so every flow can be tried. Sandboxes never send email, never appear to real users, and are deleted after 24 hours or when the visitor starts over.
 
-**Answer the question people open it with.** The home page leads with what's new and what's due, then loans in both directions, with friends' activity beside them, so the answer to "who has my book?" is on the first screen.
+**Answer the question people open it with.** The home page leads with loans in both directions, what's due and what's late, with friends' activity beside them, so the answer to "who has my book?" is on the first screen.
 
 **Mobile as a first-class layout.** People scan barcodes and check loans on their phones, so headers, search, notifications and book pages each have their own phone layout rather than a squeezed desktop page.
 
 <figure class="case-figure case-figure-phone">
-<img src="/screenshots/case-studies/stacks-phone.webp" width="700" height="1515" loading="lazy" decoding="async" alt="Stacks on a phone: recently added books four across, a want-to-read row showing Maya or Anika has each one, and the start of Loans, with The Ten Thousand Doors of January from Anika Rao due in 2 days">
-<figcaption>On a phone, the same home page in one column, with what's due called out first.</figcaption>
+<img src="/screenshots/case-studies/stacks-phone.webp" width="700" height="1515" loading="lazy" decoding="async" alt="Stacks on a phone: the home page's loans, three books borrowed from friends, starting with The Ten Thousand Doors of January from Anika Rao due in 2 days, then books lent out, starting with Piranesi, 5 days late with Sam Okafor">
+<figcaption>On a phone, the same home page in one column, loans first, with what's due and late called out.</figcaption>
 </figure>
 
 **Lighter, not heavier.** The first version leaned on Material UI. In the rebuild I replaced it with plain Tailwind CSS, cutting the bundle so pages load faster on a phone.
