@@ -725,10 +725,11 @@ header {
 }
 
 // Project and client images run wider than the text on large screens, up to
-// 960px, so the apps in them show their detail; the text keeps its narrower,
+// 800px: half the mockups' 1600px, so a 2x screen draws them pixel for pixel
+// rather than stretching them soft. The text keeps its narrower,
 // easier-to-read measure. On narrow screens they stay the column's width.
 a.project img {
-  --wide: max(100%, min(960px, 100vw - 4rem));
+  --wide: max(100%, min(800px, 100vw - 4rem));
   width: var(--wide) !important;
   max-width: none !important;
   margin-left: calc(50% - var(--wide) / 2) !important;
